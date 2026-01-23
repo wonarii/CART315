@@ -10,19 +10,13 @@ I especially want to try and use a Bitsy hack for dialog options. This will allo
 
 The first step will be to find the Bitsy hack and figure out how to use it.
 
-https://seleb.github.io/bitsy-hacks/dist/dialog-choices.js
+Here’s a [link](https://seleb.github.io/bitsy-hacks/dist/dialog-choices.js) to the Bitsy hack I will be using.
 
-Here’s a link to the BItsy hack I will be using.
-
-It was very easy to find and there are so many different hacks available in this github repo, the Bitsy community is very resourceful!
-
-https://seleb.github.io/bitsy-hacks/
+It was very easy to find and there are so many different hacks available in this [github repo](https://seleb.github.io/bitsy-hacks/), the Bitsy community is very resourceful!
 
 For my theme, I chose to make a fishing/aquarium theme. I started by designing a simple room where the character might be able to collect fish and store them in their fishtank.
 
-Once I had a little scene going, I used Borsky to hopefully be able to implement the hack for the dialog choices.
-
-http://andrewyolland.com/borksy/
+Once I had a little scene going, I used Borsky to hopefully be able to implement the [hack for the dialog choices](http://andrewyolland.com/borksy/).
 
 ![A screenshot of the Borksy tool!](/Process/Media/images/BorksyScreenshot.png)
 
