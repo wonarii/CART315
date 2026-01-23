@@ -24,7 +24,7 @@ Once I had a little scene going, I used Borsky to hopefully be able to implement
 
 http://andrewyolland.com/borksy/
 
-![A screenshot of the Borksy tool](/Media/images/BorksyScreenshot.png)
+![A screenshot of the Borksy tool!](/Process/Media/images/BorksyScreenshot.png)
 
 Unfortunately, using the hack is much more difficult than I had anticipated. I initially thought it would be like Bitsy colour where I would have access to the features within the Bitsy editor. It doesn’t seem to be the case here. I’ve decided to look up a tutorial on YouTube to hopefully make better sense of this.
 
