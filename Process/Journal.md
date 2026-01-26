@@ -226,7 +226,33 @@ Here's a breakdown of my idea:
 
 That should be it for a snowball simulator. I guess now I've got to go try it out in Unity!
 
+#### Project is here, time for sphere
 
+Creating that project took so long I had the time to go and catch 4 pokemons on Pokemon Go. And I'm actually pretty bad at the game.
 
+Anyways, project is here, now I will find a sphere.
 
+![A single grey sphere in an expanse of nothingness](/Process/Media/images/sadSphere.png)
 
+It looks quite sad all by itself like that.
+
+It has also come to my attention I will need to find some information online for this because I have no idea what to do next.
+I want to make the sphere white. For snow.
+
+Someone asked the same question as me [here](https://discussions.unity.com/t/how-do-i-change-the-color-of-a-sphere/92754)!
+
+Yayayayayayayay!!
+
+![The sphere is now white](/Process/Media/images/whiteSphere.png)
+
+Next step: sphere needs to roll!
+
+....
+
+It has come to my attention that I may need a floor.
+My sphere fell into the depths. I may never see it again...
+
+Ok floor is in!
+The sphere falls down nicely onto a plane!
+
+I should probably add some walls so that the sphere can't leave from the sides.
