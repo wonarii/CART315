@@ -1,6 +1,6 @@
 # Class Journal
 
-## Make a Thing
+## Make a Thing 22/01/2026
 
 I chose Bitsy!
 
@@ -198,7 +198,33 @@ And now I can say that I know how to use the dialog choices Bitsy hack!
 (Very important to pay attention to the indentation and brackets)
 Time to save this somewhere safe.
 
+## Exploration Prototype 1
 
+### 26/01/2026
+
+#### OneDrive hates me
+
+Getting my files set up for a new Unity project! Already had a troubling encounter, my OneDrive has been acting up these days.
+Many of my files are being randomly deleted and I'm getting warnings from OneDrive. 
+My suspicions for this issue is that github is messing with it. So every time I push or pull, thefiles get modified and OneDrive freaks out.
+At least, that's what I'm hoping is the problem. Better not be a virus...
+
+Anyways, I disabled OneDrive for now (i use git anyways so stuff should be backed up online there, right...?)
+Unfortunately, all my git repositories have been moved on my computer so they're not connecting to github desktop. I had to delete this one and re-clone it.
+Seems to work alright now.
+
+#### THE PLAN
+
+For my first exploration prototype, I want to make a snowball simulator thing in Unity.
+I chose something that seemed simple but still let me explore different aspects of the software. It's even open to adding more on top, so if its too easy, maybe I can add extra features!
+
+Here's a breakdown of my idea:
+1. Have a sphere
+2. Give the sphere physics
+3. Make the sphere move when it is clicked
+4. Make the sphere get bigger when it rolls around
+
+That should be it for a snowball simulator. I guess now I've got to go try it out in Unity!
 
 
 
