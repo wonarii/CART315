@@ -256,3 +256,16 @@ Ok floor is in!
 The sphere falls down nicely onto a plane!
 
 I should probably add some walls so that the sphere can't leave from the sides.
+
+I'm getting strange error messages on my github when I commit, yet all my files seem to be present online....
+I will choose to ignore the issue and hope nothing bad happens to me.
+
+This guy seems to be doing exactly what I want, so I'm going to follow his [tutorial](https://youtu.be/fESM_UIg1rA?si=MS3N2b-OkIE6QgZ_)
+
+And [this](https://docs.unity.com/en-us/unity-studio/develop/gameobjects/camera)
+for positioning the camera.
+
+Four minutes into my tutorial and it seems he's moving the ball with wasd, which is not what i want.
+At least I have a camera that follow the ball.
+I'll try and find another tutorial.
+Later though. I'm hungry. And my laptop is ready for liftoff.
