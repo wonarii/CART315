@@ -284,3 +284,45 @@ Anyways, I have decided to actually follow the guy's tutorial because this seems
 
 Jimmy is teaching me how to use the new input system for movement. 
 It's going well.... sort of....
+
+So the move inputs are registering correctly. We had them print to the console.
+
+Adding a movement, and the snowball got blasted into the void.
+Jimmy says it's a delta time issue. Here's a [link](https://gamedevbeginner.com/how-to-use-delta-time-in-unity-and-when-not-to/) I found to help me understand it better.
+This sums it up pretty well: "Multiplying the movement value by Delta Time converts the rate of change from units per frame to units per second."
+
+I added another snowball to the scene so we can tell if we're moving because other-wise it's just a vast expanse of nothingness.
+
+The ball no longer gets launched but instead now bounces? This is not something I wanted at all...
+
+Jimmy is gone now, so I'll try and continue using the tutorial and the stuff he showed me.
+
+Ok the tutorial worked! However, the axis are not aligned with the camera. I'll try and align the camera properly so that the controls map better to the ball movement.
+
+ok aligning worked!
+
+I will add some more random obstacles and blocks to populate the area.
+
+I'm getting distracted on side quests but I want the snowball to move slower and actually stop when the player stops pressing keys.
+So I looked up friction and this is what I got: [link](https://umatechnology.org/how-to-add-friction-in-unity/)
+
+ok so i put the material on both the snowball and plane and set it to 300. I feel like that should make it stop moving but it doesn't.
+The problem might instead be in the movement script.
+
+![screenshot of the movement code](/Process/Media/images/CodeForFailedMovement.png)
+
+I tried adding else conditions and it didn't work.
+
+Tried to change the ForceMode, that didn't work.
+
+ok [this](https://discussions.unity.com/t/stop-add-force-quickly/245266/2)looks very promising and it's a combination of the two things I tried to do!
+
+It doesn't work.
+I also tried to slow down the speed and it's not working.
+
+I've decided I will give up.
+
+And maybe instead I will go read the Unity tutorial thing we were supposed to read.
+I feel like that will help me understand things better. Maybe solve my problem even!
+
+
