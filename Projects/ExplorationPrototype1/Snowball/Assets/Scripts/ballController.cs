@@ -13,6 +13,8 @@ public class ballController : MonoBehaviour
     private InputAction move;
     //this is the snowball 
     public Transform ball;
+    private float scale = 0.0001f;
+    private Vector3 scaleVector = new Vector3(0.001f, 0.001f, 0.001f);
 
 
     void Start()
@@ -23,8 +25,8 @@ public class ballController : MonoBehaviour
         rigid = gameObject.GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
+    // FixedUpdate is called with a consistent delay every time
+    void FixedUpdate()
     {
         //when move inputs are pressed
         if (move.IsPressed())
@@ -59,6 +61,10 @@ public class ballController : MonoBehaviour
             {
                 rigid.AddForce(-Vector3.forward * speed);
             }
+
+            rigid.mass += scale;
+            ball.transform.localScale += scaleVector;
+            
         }
 
 

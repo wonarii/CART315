@@ -282,7 +282,7 @@ Anyways, I have decided to actually follow the guy's tutorial because this seems
 
 #### Jimmy to the rescue
 
-Jimmy is teaching me how to use the new input system for movement. 
+[Jimmy](https://github.com/Jimmy-Le/CART-315/blob/main/Process/Journal.md#movement-and-input) is teaching me how to use the new input system for movement. In real life. But he did it himself first so that's why he knows so much.
 It's going well.... sort of....
 
 So the move inputs are registering correctly. We had them print to the console.
@@ -324,5 +324,16 @@ I've decided I will give up.
 
 And maybe instead I will go read the Unity tutorial thing we were supposed to read.
 I feel like that will help me understand things better. Maybe solve my problem even!
+
+#### A short while later
+
+I made the snowball get bigger when it moves around!
+
+Here is the reference I used for this:
+
+[localScale](https://docs.unity3d.com/ScriptReference/Transform-localScale.html)
+
+I'm still not a fan of the movement, I wish I could make it so the control is more precise and the snowball stops rolling when you stop pressing keys.
+I feel like it'll have to be for another project though, I have other things to be working on right now...
 
 
