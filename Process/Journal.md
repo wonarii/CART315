@@ -269,3 +269,18 @@ Four minutes into my tutorial and it seems he's moving the ball with wasd, which
 At least I have a camera that follow the ball.
 I'll try and find another tutorial.
 Later though. I'm hungry. And my laptop is ready for liftoff.
+
+### 28/01/2026
+
+#### The heavens have struck me down
+
+I have developed a cold, resulting in me going to bed very early in the past days.
+
+I was getting too powerful.
+
+Anyways, I have decided to actually follow the guy's tutorial because this seems like the quickest option to get something done.
+
+#### Jimmy to the rescue
+
+Jimmy is teaching me how to use the new input system for movement. 
+It's going well.... sort of....
