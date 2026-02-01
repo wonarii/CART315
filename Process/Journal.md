@@ -336,4 +336,21 @@ Here is the reference I used for this:
 I'm still not a fan of the movement, I wish I could make it so the control is more precise and the snowball stops rolling when you stop pressing keys.
 I feel like it'll have to be for another project though, I have other things to be working on right now...
 
+## Exploration Prototype 2
+
+### 01/02/2026
+
+WE SUBMITTED A WORKING GAMEEEEEEEEEEEEEEEEEEEEEEE!!!!!!!!!!!!!!!!!
+
+Find it here on itch: [The Fellmonger](https://sh4rpsteel.itch.io/the-fellmonger)
+
+This weekend I got in a team with Ethan, Jimmy, Hubert and Owen to create a game in 48 hours!
+
+This was for a game jam hosted at McGill.
+
+My role was artist and I dabbled in some UI programming.
+
+We started the weekend by brainstorming a bunch of words related to the theme: the Hunt.
+
+![A screenshot of the Google doc where we listed words](Process/Media/images/GameJamBrainstorm.png)
 
