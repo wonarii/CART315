@@ -367,8 +367,8 @@ I brought a bunch of art supplies to mcgill and got to work with watercolours an
 
 Here's a picture:
 
-![Picture of watercolour grass field](/Process/Media/images/Grass.jpg)
-![Picture of watercolour trees](/Process/Media/images/trees.jpg)
+![Picture of watercolour grass field](/Process/Media/images/Grass.jpeg)
+![Picture of watercolour trees](/Process/Media/images/trees.jpeg)
 
 
 I did not like the artwork I made at all so I edited it digitally until it looked different and not the same.
