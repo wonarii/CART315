@@ -95,7 +95,7 @@ DLG 0
             {a = 2} 
         }Good choice!{
           - a == 1 ?
-            Yum yum yum! Thank you!{item "fish" {{item "2"} - 1}}
+            Yum yum yum! Thank you!{item "fish" {{item "2"} - 1}
           - a == 2 ?
             Yippee! How fun!{item "yarn" {{item "3"} - 1}}
         }
