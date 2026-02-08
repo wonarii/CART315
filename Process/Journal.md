@@ -352,14 +352,14 @@ My role was artist and I dabbled in some UI programming.
 
 We started the weekend by brainstorming a bunch of words related to the theme: the Hunt.
 
-![A screenshot of the Google doc where we listed words](Process/Media/images/GameJamBrainstorm.png)
+![A screenshot of the Google doc where we listed words](/Process/Media/images/GameJamBrainstorm.png)
 
 We all decided to do a boss rush, since that seemed like a fun and achievable goal.
 My role was environmental art, so I started by working with Ethan (game designer) and Owen (character artist) to come up with the theme and vibe our art should take. 
 
 I made some moodboards to help visualize the vibe more and also serve as reference images.
-![Moodboard for the first forest background](Process/Media/images/RefMoodboardDeerBg.jpg)
-![Moodboard for the first forest background](Process/Media/images/RefMoodboardDragonBg.jpg)
+![Moodboard for the first forest background](/Process/Media/images/RefMoodboardDeerBg.jpg)
+![Moodboard for the first forest background](/Process/Media/images/RefMoodboardDragonBg.jpg)
 
 In the bonus challenges, I really wanted to do the multiple art mediums.
 
@@ -367,17 +367,17 @@ I brought a bunch of art supplies to mcgill and got to work with watercolours an
 
 Here's a picture:
 
-![Picture of watercolour grass field](Process/Media/images/Grass.jpg)
-![Picture of watercolour trees](Process/Media/images/trees.jpg)
+![Picture of watercolour grass field](/Process/Media/images/Grass.jpeg)
+![Picture of watercolour trees](/Process/Media/images/Trees.jpeg)
 
 
 I did not like the artwork I made at all so I edited it digitally until it looked different and not the same.
 
-![Edited version of the previous grass field](Process/Media/images/Background01_DeerForest)
+![Edited version of the previous grass field](/Process/Media/images/Background01_DeerForest)
 
 I also worked on the deer. I'm very tired so there won't be much text this week. Have some pictures instead.
 
-![First fame of deer walk cycle](Process/Media/images/Deer_Walk0001.png)
+![First fame of deer walk cycle](/Process/Media/images/Deer_Walk0001.png)
 
 Hated doing this. Had to color in this deer like 20 times for each frame of animation we used.
 not fun. don't recommend.
@@ -392,7 +392,7 @@ Unity documentation sucks and is so hard to navigate, tell me why they have colo
 
 Game is cool:
 
-![The Fellmonger screenshots](Process/Media/images/TheFellmonger.png)
+![The Fellmonger screenshots](/Process/Media/images/TheFellmonger.png)
 
 ### 07/02/2026
 
@@ -427,7 +427,7 @@ Very glad I did this event:)
 
 MY friend pointed out this little guy I doodled in my agenda and said "I like this guy. You should make a game with him! His mouth is funny."
 
-![Dinosaur character sketch](Process/Media/images/dinosaur.png)
+![Dinosaur character sketch](/Process/Media/images/dinosaur.png)
 
 So uhhh. I guess that's what I'm doing.
 
