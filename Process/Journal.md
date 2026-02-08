@@ -81,7 +81,7 @@ The dialog choices all seem to be functioning correctly! I do want to add a defa
 It’s there but it doesn’t work so I’m going to go count brackets.
 
 I need to edit this in a larger document, the scrolling is driving me insane.
-
+```
 DLG 0
 """
 {
@@ -190,6 +190,7 @@ DLG 0
     
 }
 """
+```
 Oof that was hard. Now for some simple dialogs to finish everything off.
 
 
