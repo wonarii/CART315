@@ -352,7 +352,7 @@ My role was artist and I dabbled in some UI programming.
 
 We started the weekend by brainstorming a bunch of words related to the theme: the Hunt.
 
-![A screenshot of the Google doc where we listed words](/Process/Media/images/GameJamBrainstorm.png)
+![A screenshot of the Google doc where we listed words](/Process/Media/images/GameJamBrainstormDoc.png)
 
 We all decided to do a boss rush, since that seemed like a fun and achievable goal.
 My role was environmental art, so I started by working with Ethan (game designer) and Owen (character artist) to come up with the theme and vibe our art should take. 
@@ -367,7 +367,7 @@ I brought a bunch of art supplies to mcgill and got to work with watercolours an
 
 Here's a picture:
 
-![Picture of watercolour grass field](/Process/Media/images/Grass.jpeg)
+![Picture of watercolour grass field](/Process/Media/images/Grass.jpg)
 ![Picture of watercolour trees](/Process/Media/images/Trees.jpeg)
 
 
