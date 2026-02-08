@@ -81,7 +81,7 @@ The dialog choices all seem to be functioning correctly! I do want to add a defa
 It’s there but it doesn’t work so I’m going to go count brackets.
 
 I need to edit this in a larger document, the scrolling is driving me insane.
-{% raw %}
+
 DLG 0
 """
 {
@@ -95,7 +95,7 @@ DLG 0
             {a = 2} 
         }Good choice!{
           - a == 1 ?
-            Yum yum yum! Thank you!{item "fish" {{item "2"} - 1}
+            Yum yum yum! Thank you!{item "fish" {{item "2"} - 1}}
           - a == 2 ?
             Yippee! How fun!{item "yarn" {{item "3"} - 1}}
         }
@@ -190,8 +190,6 @@ DLG 0
     
 }
 """
-{% endraw %}
-
 Oof that was hard. Now for some simple dialogs to finish everything off.
 
 
@@ -354,14 +352,14 @@ My role was artist and I dabbled in some UI programming.
 
 We started the weekend by brainstorming a bunch of words related to the theme: the Hunt.
 
-![A screenshot of the Google doc where we listed words](/Process/Media/images/GameJamBrainstormDoc.png)
+![A screenshot of the Google doc where we listed words](Process/Media/images/GameJamBrainstorm.png)
 
 We all decided to do a boss rush, since that seemed like a fun and achievable goal.
 My role was environmental art, so I started by working with Ethan (game designer) and Owen (character artist) to come up with the theme and vibe our art should take. 
 
 I made some moodboards to help visualize the vibe more and also serve as reference images.
-![Moodboard for the first forest background](/Process/Media/images/RefMoodboardDeerBg.jpg)
-![Moodboard for the first forest background](/Process/Media/images/RefMoodboardDragonBg.jpg)
+![Moodboard for the first forest background](Process/Media/images/RefMoodboardDeerBg.jpg)
+![Moodboard for the first forest background](Process/Media/images/RefMoodboardDragonBg.jpg)
 
 In the bonus challenges, I really wanted to do the multiple art mediums.
 
@@ -369,17 +367,17 @@ I brought a bunch of art supplies to mcgill and got to work with watercolours an
 
 Here's a picture:
 
-![Picture of watercolour grass field](/Process/Media/images/Grass.jpeg)
-![Picture of watercolour trees](/Process/Media/images/Trees.jpeg)
+![Picture of watercolour grass field](Process/Media/images/Grass.jpg)
+![Picture of watercolour trees](Process/Media/images/trees.jpg)
 
 
 I did not like the artwork I made at all so I edited it digitally until it looked different and not the same.
 
-![Edited version of the previous grass field](/Process/Media/images/Background01_DeerForest.png)
+![Edited version of the previous grass field](Process/Media/images/Background01_DeerForest)
 
 I also worked on the deer. I'm very tired so there won't be much text this week. Have some pictures instead.
 
-![First fame of deer walk cycle](/Process/Media/images/Deer_Walk0001.png)
+![First fame of deer walk cycle](Process/Media/images/Deer_Walk0001.png)
 
 Hated doing this. Had to color in this deer like 20 times for each frame of animation we used.
 not fun. don't recommend.
@@ -394,4 +392,91 @@ Unity documentation sucks and is so hard to navigate, tell me why they have colo
 
 Game is cool:
 
-![The Fellmonger screenshots](/Process/Media/images/TheFellmonger.png)
+![The Fellmonger screenshots](Process/Media/images/TheFellmonger.png)
+
+### 07/02/2026
+
+#### Review of the game jam
+
+I'm a bit better rested now and I feel like I can do a better reflection on the game I worked on last weekend.
+
+I really do think game jams are made to create prototypes.
+Especially our own game. We started out with so many more ideas but ended up only having time to implement a few of them.
+However, our game is complete enough to show what we were going for. So if a prototype answers a question, then ours is maybe "Can we make a working game in a weekend?"
+or maybe "Is the difficulty of this game balanced?" or "Do people know how to play without us having to guide them?"
+I think our game prototype was able to give us answers for all of these questions.
+
+And as for the types of prototypes, the final product (the game) is an integration prototype, but each team member kind of worked on the three different prototype types (look/feel, role and implementation).
+I think I worked most on look/feel being part of the artist team. The moodboards I made really helped show other people what I was thinking about. This was really helpful because the question here was "Is this the direction we want for the background?"
+The first moodboard passed but the second one was not exaclty it. But thanks to the moodboard, Ethan was able to point out which pictures fit, and which ones were off the mark.
+
+I also showed them to the other artist Owen, just so he gets on the same page and knows what the backgrounds will look like. 
+
+I made sketches before starting to draw the final versions and those were mostly just to determine the position of elements.
+They still helped working with Jimmy though, because then I could show him the trees on the side and he could comment on the placement and how the game mechanics might work with those in place.
+
+Finally, I also did some role prototypes when I was working on the UI with Ethan. We sketched out how the health system should work and how the display would change. This helped us have a clear goal when programming which is always helpful.
+
+So overall, there was lots of prototyping through the whole event, and it helps communicate ideas, visualize features and show possibilities.
+
+Very glad I did this event:)
+
+## Exploration Prototype 3 
+
+### 07/02/2026
+
+MY friend pointed out this little guy I doodled in my agenda and said "I like this guy. You should make a game with him! His mouth is funny."
+
+![Dinosaur character sketch](Process/Media/images/dinosaur.png)
+
+So uhhh. I guess that's what I'm doing.
+
+I want to start with brainstorming possible game ideas (that are simple) I can make with this guy in it.
+
+I'll do some low fidelity prototypes through sketching!
+
+OK so some themes/features I want are to incorporate prefabs and have moving objects.
+
+I'm thinking maybe some sort of pacman thing?
+
+Ok, I've realized I don't know where to start with sketching, so I'll instead list a bunch of words in this document more for brainstorming.
+
+- eating
+- mouth
+- platformer?
+- fruits
+- hunting
+- dinosaur
+- dragon
+- fire breathing
+- collecting
+- kirby
+- catching (like the mall) horizontal?
+
+Alright so I think I know what I want to do.
+
+Just a simple dinosaur "running" (more like the bg will be moving)
+
+You would be jumping to collect food items that are flying by.
+
+#### Lists!
+
+I'm going to make a list of the elements I think I will need, and then add their functionalities.
+
+1. Dinosaur character
+- Jump
+- Eat
+- Run (ish)
+
+2. Background
+- Moves in a loop horizontally (I'm thinking a simple pattern so we can see movement since that will be easy to make it loop and won't require much work )
+3. Food items
+- Moves with the background
+- When eaten (dino hits it), disappears
+- Gives points
+
+Let's start with just one for simplicity's sake. I want to maybe do a grilled cheese. Dinosaurs enjoy eating grilled cheeses right?
+
+I think that's all I want to do for now. I have ideas for additional features but that might be for later.
+
+![Dinosaur game sketch](Process/Media/images/dinosaurSketch.png)
