@@ -496,3 +496,7 @@ The rectangle has gravity and the floor doesn't move! (had to make it kinematic)
 Now I want to make the dinosaur jump. So I'll try to apply and upwards force on it when the player clicks, presses space, presses w or presses up arrow.
 
 Ok, so the dinosaur jumps but not very high, so I'm going to keep editing the "speed" (which is what controls jump height).
+
+um. Changed the mass and speed and launched my dinosaur into space.
+
+![A gif of the dino rectangle being launched into space](/Process/Media/images/dinoVisitingNeptune.gif)
