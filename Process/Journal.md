@@ -479,4 +479,4 @@ Let's start with just one for simplicity's sake. I want to maybe do a grilled ch
 
 I think that's all I want to do for now. I have ideas for additional features but that might be for later.
 
-![Dinosaur game sketch](Process/Media/images/dinosaurSketch.png)
+![Dinosaur game sketch](/Process/Media/images/dinosaurSketch.png)
