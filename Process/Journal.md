@@ -480,3 +480,19 @@ Let's start with just one for simplicity's sake. I want to maybe do a grilled ch
 I think that's all I want to do for now. I have ideas for additional features but that might be for later.
 
 ![Dinosaur game sketch](/Process/Media/images/dinosaurSketch.png)
+
+### 08/02/2026
+
+Made a 2d unity project.
+
+I think I want to start with a rectangle as my dinosaur.
+
+After that I can work on making it pretty. So an implementation prototype before look/feel.
+
+The rectangle has gravity and the floor doesn't move! (had to make it kinematic).
+
+![A green rectangle on the floor](/Process/Media/images/dinoRunner01.png)
+
+Now I want to make the dinosaur jump. So I'll try to apply and upwards force on it when the player clicks, presses space, presses w or presses up arrow.
+
+Ok, so the dinosaur jumps but not very high, so I'm going to keep editing the "speed" (which is what controls jump height).
