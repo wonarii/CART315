@@ -521,3 +521,9 @@ Now I want to have some grilled cheeses flying across the screen so that the din
 We'll start with just having them move across the screen.
 (rectangles again, I haven't made any assets).
 I'll try and use prefabs and instantiate.
+
+Grilled cheese moves left now.
+
+Grilled cheese now gets destroyed when hitting left edge.
+
+It's going very smoothly:)
