@@ -500,3 +500,17 @@ Ok, so the dinosaur jumps but not very high, so I'm going to keep editing the "s
 um. Changed the mass and speed and launched my dinosaur into space.
 
 ![A gif of the dino rectangle being launched into space](/Process/Media/images/dinoVisitingNeptune.gif)
+
+It was not a gravity issue but a mouse click issue.My dino was infinitely jumping causing it to reach space.
+
+Ok so jump looks good but I want to prevent multiple jumps so the player doesn't leave the screen.
+
+I can either add a ceiling and make it so the dino bumps its head (this would allow the player to fly though)
+
+or
+
+I check when the dino is jumping and prevent jumps.
+
+I'll try method 2.
+
+
