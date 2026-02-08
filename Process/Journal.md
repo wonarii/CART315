@@ -547,3 +547,8 @@ Set the mass of the grilled cheese to 0 and it fixed it:)
 
 Now I guess it's just adding assets?
 And maybe a point system?
+
+Assets are being added in!
+
+Looks great:)
+
