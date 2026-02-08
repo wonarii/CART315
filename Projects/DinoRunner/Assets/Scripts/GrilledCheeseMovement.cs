@@ -20,11 +20,15 @@ public class GrilledCheeseMovement : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("collision");
         //is dino touching the ground?
         if (other.gameObject.tag == "WallLeft")
         {
-            Debug.Log("destroy grilled cheese");
+            Destroy(this.gameObject);
+        }
+
+        if (other.gameObject.tag == "Player")
+        {
+            //getPoints();
             Destroy(this.gameObject);
         }
     }

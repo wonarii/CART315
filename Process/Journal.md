@@ -527,3 +527,15 @@ Grilled cheese moves left now.
 Grilled cheese now gets destroyed when hitting left edge.
 
 It's going very smoothly:)
+
+Next we want the grilled cheese to destroy and give points when dino hits it.
+
+Ok so good news and bad news
+
+Good news: the grilled cheese spawner works.
+
+Bad news: the grilled cheeses knock over my dino:(
+
+![Dino falling after hitting its head on grilled cheese](/Process/Media/images/dinoGettingHitByGrilledCheese.gif)
+
+Set the mass of the grilled cheese to 0 and it fixed it:)
