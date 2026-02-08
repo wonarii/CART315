@@ -513,4 +513,11 @@ I check when the dino is jumping and prevent jumps.
 
 I'll try method 2.
 
+Ok I can check if the dino is in the air by seeing if it is touching the ground or not.
 
+#### Flying grilled cheese
+
+Now I want to have some grilled cheeses flying across the screen so that the dino can eat them.
+We'll start with just having them move across the screen.
+(rectangles again, I haven't made any assets).
+I'll try and use prefabs and instantiate.
