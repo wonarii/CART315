@@ -572,3 +572,10 @@ I feel like this time I might want to follow a tutorial (or just watch, idk yet)
 
 I've been wanting to do a driving simulator for the longest time for the continuation of my [Tomsu series](https://wonari.net/tomsu/) so I'll try and find a relevant tutorial on youtube.
 Something short and easy to follow hopefully.
+
+#### FOund a playlist?
+
+Ok so I found this [playlist](https://www.youtube.com/playlist?list=PLyDa4NP_nvPcP4l93hJQDoRMvp3emkSs7). It's a lot. I'm not following all that. 
+
+I'll maybe just do the first video. And forget about having pretty models, we're doing an implementation prototype!
+
