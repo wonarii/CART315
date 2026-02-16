@@ -591,3 +591,15 @@ I'm gonna go take a nap actually.
 
 Idk these driving sim youtube videos are making me motion sick :(
 
+#### Trying again
+
+Ok so there was no nap but I did think about it a bit more and I will use the stuff I made for my snowball and just re-use that.
+
+Now that I think about it, I'm just remaking the snowball game but worse ;-;
+
+How do I turn this into something new?
+
+Maybe I can try to implement a braking system or something.
+
+
+
