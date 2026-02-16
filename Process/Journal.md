@@ -579,3 +579,15 @@ Ok so I found this [playlist](https://www.youtube.com/playlist?list=PLyDa4NP_nvP
 
 I'll maybe just do the first video. And forget about having pretty models, we're doing an implementation prototype!
 
+mmmmmmmm
+
+Video isn't what I wanted it to be.
+
+I think I'm going to go find another one. 
+
+hrmmmm
+
+I'm gonna go take a nap actually.
+
+Idk these driving sim youtube videos are making me motion sick :(
+
