@@ -570,5 +570,5 @@ I've gotta think of some idea.
 
 I feel like this time I might want to follow a tutorial (or just watch, idk yet). That would require less thinking from me which is good because I feel like my brain has been replaced by mucus. 
 
-I've been wanting to do a driving simulator for the longest time for the continuation of my Tomsu series so I'll try and find a relevant tutorial on youtube.
+I've been wanting to do a driving simulator for the longest time for the continuation of my [Tomsu series](https://wonari.net/tomsu/) so I'll try and find a relevant tutorial on youtube.
 Something short and easy to follow hopefully.
