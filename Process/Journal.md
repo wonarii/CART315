@@ -603,3 +603,24 @@ Maybe I can try to implement a braking system or something.
 
 
 ![Screenshot of my rectangular prism on a road](/Process/Media/images/ScrrenshotOfREctangle.png)
+
+Snowball movement is not working, my prism is just doing a slight jump up and down but not actually moving....
+
+also there's a weird kshhhhhhhh noise coming out of my computer whenever I press play. Not sure if it's like the fans or just the scene itself has some sort of ambiant noise?
+
+Ohhh ok upped the speed and it's moving my prism just not very well. I'm going to actually try and maybe make it so the prism glides above the floor?
+
+Hehehe ok it looks kinda fun like this actually!
+
+It works now so I'll just add the camera thing so it follows (from my snowball).
+
+Camera follows!!!
+
+Um. Good enough for now I guess, my next step would be to figure out turning.
+
+I want it to turn, not just glide sideways.
+If that makes sense.
+
+So I'll be finding a tutorial.
+
+
