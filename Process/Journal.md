@@ -555,3 +555,20 @@ Looks great:)
 ![Dino eating food](/Process/Media/images/dinoEatingGrilledCheese.gif)
 
 Ok, I'm pretty satisfied with this prototype so I'll be stopping here. 
+
+## Exploration Prototype 4
+
+### 16/02/2026
+
+I can't believe it! I got sick again!!!!
+
+I thought this couldn't happen! Llike you uild an immunity or something after getting sick the first time.
+
+Anyways... I'm feeling pretty bad so this week is going to be very simple I guess.
+
+I've gotta think of some idea.
+
+I feel like this time I might want to follow a tutorial (or just watch, idk yet). That would require less thinking from me which is good because I feel like my brain has been replaced by mucus. 
+
+I've been wanting to do a driving simulator for the longest time for the continuation of my Tomsu series so I'll try and find a relevant tutorial on youtube.
+Something short and easy to follow hopefully.
