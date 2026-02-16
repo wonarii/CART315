@@ -623,4 +623,17 @@ If that makes sense.
 
 So I'll be finding a tutorial.
 
+This one by Ketra looks quite good: [Rotating a Character in the Direction of Movement](https://www.ketra-games.com/2020/12/rotating-a-character-in-the-direction-of-movement-unity-game-tutorial.html#google_vignette)
+
+Ok so it sort of works
+
+Still pretty wonky though.
+
+It's not doing diagonals with the way I have it coded. Right now, it can only choose one of the four cardinal diirections to move towards. I might have to rethink the movement to make it smoother and allow for some diagonals.
+
+I think the force thing was good for my snowball because it allowed for rolling, but here, maybe I should just do regular translations and stuff without the force.
+
+Might look and feel better.
+
+That'll be done another day though.
 
