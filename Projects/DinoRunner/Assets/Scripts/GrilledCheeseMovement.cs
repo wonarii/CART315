@@ -28,7 +28,7 @@ public class GrilledCheeseMovement : MonoBehaviour
 
         if (other.gameObject.tag == "Player")
         {
-            //getPoints();
+            GameManager.GM.eatGrilledCheese();
             Destroy(this.gameObject);
         }
     }

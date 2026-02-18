@@ -637,3 +637,24 @@ Might look and feel better.
 
 That'll be done another day though.
 
+#### Giving up
+
+I don't want to do that anymore.
+
+I'm instead going to turn my attention to the dinosaur game.
+
+The driving sim is fun but it feels repetitive to what I have already done with the snowball, and I don't want to have to figure out 3D movement anymore.
+
+So dinosaur game improvements: 
+
+1. Add a score
+2. Add sound
+3. We'll see if we have time for 3 but maybe downwards force so you're not stuck in a jump.
+
+#### Adding a score
+
+Using the same concepts learnt in class. I am adding a score so it goes up by one for every grilled cheese eaten.
+
+The text was not appearing for some reason.
+After "debugging", I pressed play and it suddenly appeared now so I guess that works...?
+
