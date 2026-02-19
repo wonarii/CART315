@@ -658,3 +658,54 @@ Using the same concepts learnt in class. I am adding a score so it goes up by on
 The text was not appearing for some reason.
 After "debugging", I pressed play and it suddenly appeared now so I guess that works...?
 
+### 19/02/2026
+
+Good morning!
+
+Time to keep on working on dino game!
+
+I got distracted yesterday and just stopped working on the game to do something else but we're back now.
+
+I will finish up the score system!
+
+![Score goes up everytime the dino eats a grilled cheese](Process/Media/images/scoreGoingUp.gif)
+
+It works pretty well now, but I feel like I compartmentalized it a bit too much, I have a GameManager, a Score and the grilled cheese all communicating with each other and that seems like a lot of unecessary steps.
+
+I'll keep it for now though. I feel like the game manager has to stay, in case we switch scenes, weonly have to really keep the game manager.
+
+eh.
+
+I want to switch up the font and colour of the text for the score so I'll do that next.
+
+I chose the font [Slackey](https://fonts.google.com/specimen/Slackey?preview.text=Score:&specimen.preview.text=Score:&categoryFilters=Feeling:%2FExpressive%2FPlayful) from Google fonts
+
+![Screenshot of the nice font](/Process/Media/images/BeautifulScore.png)
+
+I'm prettysatsfied with that!
+
+#### Sound time!
+
+Rawr!
+
+I will go look online for sounds to add in.
+
+Here's what I'm looking for:
+
+1. A blip or chomp or nomnom noise when you eat the grilled cheese
+2. a Boing noise when you jump
+
+Heheh sounds added!
+
+Can't really show that with a gif but trust me, they are there!
+
+They're really cute actually!
+
+Very happy with what I have :)
+
+I think this is where I will stop with my dinosaur for now.
+
+I definitely can add more things, such as downwards force, side to side movement, new food items (bad or good), a lives system, a background music track...
+
+Those are future plans though, and not for today!
+

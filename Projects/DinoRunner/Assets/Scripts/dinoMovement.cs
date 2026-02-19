@@ -25,6 +25,8 @@ public class dinoMovement : MonoBehaviour
         {
             // Add a vertical force
             dinoRB.AddForce(transform.up * dinoSpeed);
+            //sound effect
+            AudioManager.AM.playJump();
             isTouchingGround = false;
         }
     }

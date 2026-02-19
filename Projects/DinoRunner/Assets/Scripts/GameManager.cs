@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
 
     public static float points;
     public static GameManager GM;
-
+    
 
     void Awake(){
         GM = this;
@@ -24,10 +24,11 @@ public class GameManager : MonoBehaviour
 
     public void reset(){
         points = 0;
+        Score.S.updateScore(points);
     }
 
     public void eatGrilledCheese(){
         points ++;
-
+        Score.S.updateScore(points);
     }
 }

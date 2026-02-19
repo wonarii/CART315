@@ -28,6 +28,8 @@ public class GrilledCheeseMovement : MonoBehaviour
 
         if (other.gameObject.tag == "Player")
         {
+            //sound effect
+            AudioManager.AM.playNyom();
             GameManager.GM.eatGrilledCheese();
             Destroy(this.gameObject);
         }
