@@ -709,3 +709,115 @@ I definitely can add more things, such as downwards force, side to side movement
 
 Those are future plans though, and not for today!
 
+## Iterative Prototype 1 - Coming up with ideas
+
+### 19/02/2026
+
+#### In class brainstorming
+
+So we were given a few minutes to come up with one idea.
+
+With what's been going on in my mind lately, I decided I want to make a game for my best friend. She's been cheering me on for forever and has been feeling down so I feel like it makes sense for me to do something for her. 
+
+And it also relieves me a bit of the pressure to do really well. Because I only need to do well for her. And she's impressed with almost anything I do so...
+
+Anyways, here's the list of "how might we"s I've come up with during that first brainstorm:
+
+How might we....
+- Make a game for (best friend)?
+- Make a game where you are a squirrel? (squirrel simulator)
+- Make a game to cheer up (best friend)?
+- Make a game about ducks?
+- Make a game that can help communicate bad feelings?
+- Make a game to visualize/organize thoughts?
+- Make a collecting game?
+- Make a multiplayer cooperative game?
+
+WE DO NOT JUDGE THE IDEAS HARSHLY PLEASE
+
+And so this was the start of something. The main theme is now obvious to me because I know my target audience very well. My target audience is me and my best friend.
+
+Next was to brainstorm a list of words related to the initial concept.
+
+I will now list a bunch of words and then after I will pass back and maybe expand on the ones I thought were interesting. (the pass back is happening one day later, so I had time to simmer a bit)
+
+- Multiplayer: I want to be able to play together with my friend. I think a cooperative game would go really well here because it's like I can show her what I've done by participating actively and being in the game world too. I do think I want it to be same device multiplayer though. Like Fireboy and Watergirl.
+- Different perspectives: It would be really cool if I can make it so the two players have different experiences as they play the game. 
+- Difficult communication: Speaking with NPCS or interacting with the world but also maybe between players themselves too.
+- Water/Drowning: I am a big fan of water imagery to represent emotions
+- Obstacles
+- Good ending: I don't want this game to be depressing, I want this to have a good ending. Or at least make you feel better after playing. Not frustrated or upset lol.
+- Cute: This is important. To get my friend to want to play a game, it should be cute. For that initial attraction.
+- Squirrels, ducks and cats: my bestie's favourite animals but also mine
+- Doing bad things: moral decisions?
+- Big bad
+- Fear
+- Anxiety
+- Unfamiliar world: Unconventiional interaction?
+- Things not made for you
+- Accessibility: This would be an interesting theme to explore, especially if I can create an unequal balance between the two players, where one action is much harder for one of the players to accomplish, and vice-versa.
+- Blue and yellow: our favourite colours but also colours that have symbolism (blue is sad and yellow is happy). Good contrast.
+- Eye contact: The ultimate insult
+- Forced smiles
+- Masking: This is a theme I might want to explore. This ties with exhaustion, energy levels and forgetting yourself.
+- Forgetting yourself
+- Loneliness in a coop game: THemes of loneliness would also be an interesting direction to take. And in a co-op game, how could we convey loneliness?
+- Music? Drone? Sounds?
+- Levels
+- Bad thoughts
+- Words
+- Nightmares
+- Judgement
+- People pleasing
+- Bullying
+- Family
+- Anger/Rage
+- SHame, Sadness, Despair, Guilt, Tired
+- Easy option vs difficult path
+- Energy levels
+- Love, joy, acceptance, grief
+- Disapointment
+- Expectations
+- Invisible barriers
+- Unequal skills
+- Platformer
+- Abyss
+- Crowds
+- Asking for help
+- Searching for community
+- Simple controls: If it's for my best friend, controls that control quick reaction times or the coordination of multiple buttons at once might not be it.
+- No reading: my friend doesn't read in games.
+
+The hybrid activity done in class was nice, but I became very attached to this idea, so not much of what was proposed helped out. EXCEPT for Nadia's idea. Nadia and I had the words Rage and High-alert. We came up with a game where you have a rage meter and you are trying to keep it under control by interacting with different elements. (for example, screaming into a pillow, or petting your cat). Triggers in the world try to make your rage worse.
+
+I liked the idea of a meter and trying to keep it under control. This ties in really well with my intial ideas.
+
+And then I went home and just as I'm about to sleep I get some new wonderful ideas.
+
+3D glasses?
+
+What if I could make a game that is played on one screen but using advanced 3d glasses technology, each player sees a different thing?
+
+So you know the thing where a red lense erases all the red stuff. And then the blue lense erases all the blue stuff so you only see the red?
+
+Yeah, that.
+
+Maybe that's something I want to play around with?
+
+Another idea I had that is more of just expanding on my keywords was to make a player a duck in a squirrel world or a squirrel in a duck world. Not sure which one yet, but the main concept would be that the squirrels and ducks have very different abilities, and if one tries to fit in with the others, they are doing significantly more work.
+
+Tomorrow I think I want to try and test out the red and blue thing, and maybe see if it works with other colours too. (i don't like red and blue, it just reminds me of tiktok and that's no good)
+
+I also want to remind myself that I need to choose something SMALL. ACHIEVABLE. LIMIT YOUR SCOPE.
+
+I always fall into the habit of wanting to do everything and then ending up with an unfinished mess I do not like.
+
+So I will choose ONE idea and then make something simple and basic but well done.
+
+And then if I have time I can consider doing more, but realistically, we won't be. 
+
+Also, I'll be seeing my friend this weekend so I will get the opportunity to discuss with her! Maybe I can get some good insight, or even have her involved in the game creation process as an assistant game designer. It might help me stay motivated and it helps to get external feedback as you do things. 
+
+
+
+
