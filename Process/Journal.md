@@ -938,3 +938,36 @@ I feel like maybe having some sort of flashlight system?
 
 So, it doesn't really work, I think I want to pivot a bit and start thinking of what exactly I want to do for the game. This was fun to test though.
 
+#### Thinking....
+
+Eye contact.
+
+Maybe I can make a game environment to show how awful eye contact feels?
+
+Or like, a daily life platformer, and then there are obstacles?
+
+That would be too much. We must limit!!!
+
+Ok so here's what I want:
+
+- 2 players
+- same screen multiplayer
+- cooperative
+- yellow and blue
+- each player has their own strength and weaknesses in terms of what they can do in the game
+- each player perceives the world differently
+
+And the game will be centered around ONE issue
+
+Here's a list of potential issues I may want to explore:
+
+- Loneliness/isolation
+- Eye contact
+- Communicating with others
+- Fear of being judged
+- Masking
+- Anxiety
+- Pressure to be a good person
+- Nightmares
+
+I'll sit on it a bit and then come back when I've chosen one.
