@@ -884,4 +884,42 @@ Yeessss!! Let's use blue and yellow!
 
 Try it on the computer monitor instead of on paper.
 
+#### Coloured lenses Experiment 2
+
+##### Description
+
+Testing the physical lenses on digital drawings and digital lenses on digital drawings.
+
+
+##### Goal
+
+Can I use the physical lenses to make the pictures on a monitor look different?
+
+Can I make a digital version of the lenses to add within the game?
+
+
+##### Process
+
+1. Draw scribbles of different colours in my drawing program. Test different coloured backgrounds too.
+2. Put lense in front of monitor and observe results.
+3. Put lense in front of my eyes/the camera and observe results
+4. Make a digital lense (low opacity coloured rectangle and observe results
+5. Test with multiple opacities and transparency settings
+
+
+
+
+##### Results
+
+It... doesn't work?
+
+Also I don't want to stain my monitor so the lenses are staying a bit away.
+
+I think maybe my monitor colours are too dark?
+
+
+
+##### Future plans
+
+
 
