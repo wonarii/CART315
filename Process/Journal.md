@@ -906,7 +906,11 @@ Can I make a digital version of the lenses to add within the game?
 4. Make a digital lense (low opacity coloured rectangle and observe results
 5. Test with multiple opacities and transparency settings
 
+ ![testing the coloured lense on the monitor](/Process/Media/images/ColouredLenses3.gif)
 
+![Testing digital version of coloured lenses](/Process/Media/images/DigitalColouredLenses1.gif)
+
+![Getting confused by colour theory](/Process/Media/images/DigitalColouredLenses2.gif)
 
 
 ##### Results
