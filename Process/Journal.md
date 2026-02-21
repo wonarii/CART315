@@ -668,7 +668,7 @@ I got distracted yesterday and just stopped working on the game to do something 
 
 I will finish up the score system!
 
-![Score goes up everytime the dino eats a grilled cheese](Process/Media/images/scoreGoingUp.gif)
+![Score goes up everytime the dino eats a grilled cheese](/Process/Media/images/scoreGoingUp.gif)
 
 It works pretty well now, but I feel like I compartmentalized it a bit too much, I have a GameManager, a Score and the grilled cheese all communicating with each other and that seems like a lot of unecessary steps.
 
@@ -855,6 +855,9 @@ Do colours other than red or blue work?
 
 Using the adobe express gif converter.Hopefully there's not secret charge hidden somewhere.
 
+ ![me testing the coloured lenses](/Process/Media/images/ColouredLenses1.gif)
+
+  ![Testing the coloured lenses with light blue](/Process/Media/images/ColouredLenses1.gif)
 
 
 ##### Results
