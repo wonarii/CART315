@@ -857,7 +857,7 @@ Using the adobe express gif converter.Hopefully there's not secret charge hidden
 
  ![me testing the coloured lenses](/Process/Media/images/ColouredLenses1.gif)
 
-  ![Testing the coloured lenses with light blue](/Process/Media/images/ColouredLenses1.gif)
+  ![Testing the coloured lenses with light blue](/Process/Media/images/ColouredLenses2.gif)
 
 
 ##### Results
