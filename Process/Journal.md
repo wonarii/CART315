@@ -818,6 +818,67 @@ And then if I have time I can consider doing more, but realistically, we won't b
 
 Also, I'll be seeing my friend this weekend so I will get the opportunity to discuss with her! Maybe I can get some good insight, or even have her involved in the game creation process as an assistant game designer. It might help me stay motivated and it helps to get external feedback as you do things. 
 
+### 21/02/2026
 
+#### Forcing myself to sit down in front of this computer and think
+
+I have all these great concepts but now I want to try them out.
+
+I'll start with the 3D thing with the red and blue.
+
+I do not have 3D glasses anywhere in my house so I'm going to try and colour a plastic protector sheet and see if that works?
+
+I'll also do a yellow one to see if that might work too.
+
+And orange. Orange is pretty hihihi
+
+Ok Hold on, I want to try and structure my journal a bit better so let's try something out here:
+
+#### Coloured lenses Experiment 1
+
+##### Description
+
+Testing coloured lenses as a potential way to have one screen show different things depending on what colour glasses users are wearing.
+
+##### Goal
+
+Is this a good concept to continue working with?
+
+Do colours other than red or blue work?
+
+##### Process
+
+1. Cut out pieces of transparent plastic
+2. Colour the plastic red, blue, orange and yellow
+3. Make drawings with the same colours on paper
+4. Move the plastic over the drawings and observe results
+
+Using the adobe express gif converter.Hopefully there's not secret charge hidden somewhere.
+
+
+
+##### Results
+
+The blue was too dark  when drawn on paper. This means I have to be careful that the colours I use are lighter or the same as the colours of the lenses.
+
+The red plastic hides yellow, red and orange, the orange plastic hides orange and yellow and the yellow plastic only hides yellow.
+
+So this means I can use yellows and oranges too!
+
+Marker on plastic doesn't dry and my hands are now incredibly colourful. And that means my keyboard too...
+
+Going back to my questions, 
+
+Is this a good concept to continue working with?
+
+I think it is fun, so yes.
+
+Do colours other than red or blue work?
+
+Yeessss!! Let's use blue and yellow!
+
+##### Future plans
+
+Try it on the computer monitor instead of on paper.
 
 
