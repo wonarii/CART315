@@ -917,9 +917,20 @@ Also I don't want to stain my monitor so the lenses are staying a bit away.
 
 I think maybe my monitor colours are too dark?
 
+Also, while testing with the different background colours, I've noticed that the way the colours look and stand out changes based on the background.
 
+
+
+Can I use the physical lenses to make the pictures on a monitor look different?
+
+Maybe with better lenses but right now, no. I might have to find actual coloured plastic for this?
+
+Can I make a digital version of the lenses to add within the game?
+
+Also no, but I should try and find some online resources, maybe that would work?
+I feel like maybe having some sort of flashlight system?
 
 ##### Future plans
 
-
+So, it doesn't really work, I think I want to pivot a bit and start thinking of what exactly I want to do for the game. This was fun to test though.
 
