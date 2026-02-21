@@ -908,9 +908,9 @@ Can I make a digital version of the lenses to add within the game?
 
  ![testing the coloured lense on the monitor](/Process/Media/images/ColouredLenses3.gif)
 
-![Testing digital version of coloured lenses](/Process/Media/images/DigitalColouredLenses1.gif)
+![Testing digital version of coloured lenses](/Process/Media/images/DigitalColouredLenses2.gif)
 
-![Getting confused by colour theory](/Process/Media/images/DigitalColouredLenses2.gif)
+![Getting confused by colour theory](/Process/Media/images/DigitalColouredLenses1.gif)
 
 
 ##### Results
