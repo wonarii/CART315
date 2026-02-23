@@ -976,6 +976,10 @@ I'll sit on it a bit and then come back when I've chosen one.
 
 I think this is one of the best multiplayer co-operative games out there. It's something I played a lot of as a kid with various different people. It is a game meant to be played with two players, one person controlling watergirl and the other fireboy. Each uses different keys but the characters can do the same movements: run and jump.
 
+Here's the link to play it online: [Game](https://fireboyand-watergirl.com)
+
+![Fireboy and Watergirl's first level](/Process/Media/images/Level1FireWater.png)
+
 ### Let's analyze why it was fun!
 
 1. Simple controls
@@ -988,14 +992,21 @@ I remember playing this as a kid, the wasd keys were for the most experienced pl
 
 As you start the game, it explains how to play. It doesn't throw every single feature and puzzle at you at the start, it slowly introduces them and gives the player time to understand them, before adding someting else. The way the levels are built, you can trust that the next level might have some of the obstacles you currently encounter, plus maybe something new or an added twist. The familiarity between levels reduces utter confusion as to what to do next, and helps players solve the puzzles.
 
+![Fireboy and Watergirl's first level](/Process/Media/images/TutFireWater.png)
+![Fireboy and Watergirl's first level](/Process/Media/images/LeverFireWater.png)
+
 3. Challenge
 
 As you progress, the game becomes increasingly harder. The challenge and difficulty of the game was a mix of both physical skills (getting timings right, good reflexes) but also mental skills (solving puzzles, coordinating with your teammate).  This means players who might not be so good at one aspect (for example, aren't good at jumping at the right time) could still be good in other ways (solving the puzzles, determining which path to take...). The bigger the challenge, the better te satisfactiont to overcoming it. There was always big cheers when your teammate or yourself managed to get past a particularly difficult section. 
+
+![Fireboy and Watergirl's first level](/Process/Media/images/GameOverFireWater.png)
 
 4. Variety
 
 While each new level keeps some similarities to the previous one, there are also always new challenges or obstacles mixed in. Each new level required players to think about which path they should take, and how to get past new obstacles. The roles and responsibilities also get switched up, sometimes players need to be the ones to press the buttons while the other runs, or other times one player needs to jump on a platform and wait for the other to flick a lever. 
 Since every level feels new, the game doesn't feel repetitive, despite the characters only really being able to take 3 actions (run, wait or jump).
+
+![Fireboy and Watergirl's first level](/Process/Media/images/Level2FireWater.png)
 
 ### What can I make better?
 
