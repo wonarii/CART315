@@ -971,3 +971,56 @@ Here's a list of potential issues I may want to explore:
 - Nightmares
 
 I'll sit on it a bit and then come back when I've chosen one.
+
+## Video Game Analysis - Fireboy and Watergirl
+
+I think this is one of the best multiplayer co-operative games out there. It's something I played a lot of as a kid with various different people. It is a game meant to be played with two players, one person controlling watergirl and the other fireboy. Each uses different keys but the characters can do the same movements: run and jump.
+
+### Let's analyze why it was fun!
+
+1. Simple controls
+
+wasd keys and arrow keys. That's it. No other buttons to press or memorize combinations of. I think the simple controls made the game very accessible to new players. It was your basic video game character controls, and it felt very intuitive. Up arrow meant up (jumping). Left and right are to move left and right. Pretty easy to get for a beginner. This meant not a lot of time had to be spent explaining the controls to anyone new you wanted to play with.
+
+I remember playing this as a kid, the wasd keys were for the most experienced player, as they were less intuitive than the arrow keys. It was an honour to be able to switch to the wasd keys when you became better at the game.
+
+2. Good tutorials/onboarding
+
+As you start the game, it explains how to play. It doesn't throw every single feature and puzzle at you at the start, it slowly introduces them and gives the player time to understand them, before adding someting else. The way the levels are built, you can trust that the next level might have some of the obstacles you currently encounter, plus maybe something new or an added twist. The familiarity between levels reduces utter confusion as to what to do next, and helps players solve the puzzles.
+
+3. Challenge
+
+As you progress, the game becomes increasingly harder. The challenge and difficulty of the game was a mix of both physical skills (getting timings right, good reflexes) but also mental skills (solving puzzles, coordinating with your teammate).  This means players who might not be so good at one aspect (for example, aren't good at jumping at the right time) could still be good in other ways (solving the puzzles, determining which path to take...). The bigger the challenge, the better te satisfactiont to overcoming it. There was always big cheers when your teammate or yourself managed to get past a particularly difficult section. 
+
+4. Variety
+
+While each new level keeps some similarities to the previous one, there are also always new challenges or obstacles mixed in. Each new level required players to think about which path they should take, and how to get past new obstacles. The roles and responsibilities also get switched up, sometimes players need to be the ones to press the buttons while the other runs, or other times one player needs to jump on a platform and wait for the other to flick a lever. 
+Since every level feels new, the game doesn't feel repetitive, despite the characters only really being able to take 3 actions (run, wait or jump).
+
+### What can I make better?
+
+While this is a really great example of a good co-operative game, there are some details I might want to change when making my own game.
+
+1. Challenge
+
+While the difficulty in fireboy and watergirl did make it feel more fun when you DO succeed, it was not so fun when you constantly fail. Especially so, when (as a kid who did not have the most quick reflexes) it was always the same person who messed up. This caused frustration and even lead to some people not wanting to play with you anymore if you sucked that bad. It also meant sometimes you would get pushed out of the way so they could take over your character and play your part for you. 
+
+For my own game, I want to make it more discovery and puzlle-y than reflex-y and timing. This would help reduce the skill gap and make players feel more involved. There will be no playing for another person here!
+
+2. Visuals
+
+To be fair, I'm not sure I want to focus on the visuals too hard for my own prototype but I will say that fireboy and watergirls visuals are a bit outdated. They still look cool though! and very nostalgic! But I'm not sure that's the style I want to go for with my own game. I would want my colours more cohesive. That's probably the only issue I have. Other than that the style itself is cute:)
+
+3. Lives system?
+
+Rather than an instant death and restart, maybe I could implement a life system, to be a bit more lenient with players and reduce frustration of having to restart constantly at the same spot.
+The number of remaining lives could affect final performance so players who want that extra difficulty could go ahead and try to get the best score possible, while players who are less skilled now have a higher chance of being able to progress forwards. 
+
+### What can I use?
+
+I would love to be able to use a similar system of two players relying on each other (so for example, the switches in Fireboy and watergirl need a player to stand there in order to activate a bridge, or open a door). 
+
+I also like how they implemented the tutorial, with text fading in and out as a player approaches a new obstacle. It is straight to the point, and let's the players learn by doing, rather than being forced to read. If they don't understand the new feature, they are barred from progressing, since understanding the feature is the only way to move forward. This prevents players getting stuck in further levels, where there isn't any tutorial text to guide you.
+
+I like how the game re-uses similar components but puts them in different situations. This can make the game easier to make but still provides variety for the player to go through. Perhaps I might want to make my own preset of obstacles, and then mix and match them to create levels.
+
