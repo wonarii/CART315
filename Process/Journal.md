@@ -972,6 +972,105 @@ Here's a list of potential issues I may want to explore:
 
 I'll sit on it a bit and then come back when I've chosen one.
 
+### 23/02/2026
+
+#### Coming up with ideas is so much easier together
+
+Was in a bit of a slump but bouncing ideas off my firend really helped me feel more excited about this project!
+I can now picture how things could look like in the end.
+
+Here's some screenshots of our conversation:
+
+![Screenshots of text messages](/Process/Media/images/Messages1.png)
+![Screenshots of text messages](/Process/Media/images/Messages2.png)
+![Screenshots of text messages](/Process/Media/images/Messages3.png)
+![Screenshots of text messages](/Process/Media/images/Messages4.png)
+![Screenshots of text messages](/Process/Media/images/Messages5.png)
+![Screenshots of text messages](/Process/Media/images/Messages6.png)
+![Screenshots of text messages](/Process/Media/images/Messages7.png)
+![Screenshots of text messages](/Process/Media/images/Messages8.png)
+
+So, here's the final idea:
+
+1. It's a platformer with boss fights
+
+At the end of a level there will be a boss fight.
+
+2. The players are a duck and a cat
+
+They will be controlled using wasd and arrow keys. 
+
+3. Each player has an energy bar
+
+This will be their stamina/health and will go up or down depending on different obstacles. I think I want the bar to be different for each, so maybe one player has 25 and the other has 30 energy.
+
+4. Each player has different abilities
+
+Duck: can swim, fly (if not weighted down), dive
+
+Cat: Can climb and balance on some structures
+
+5. The world is made for squirrels (wires and trees and lots of vertical things)
+
+6. Collecting shiny things
+
+There are shiny things to collect. These are group points.
+
+7. Getting food
+
+The goal of the game would be to collect all the food throghout the level, beat the boss and leave.
+
+I'm thinking there should be 3 foods for each player to get (only they can get it).
+
+8. In the style of fireboy and watergirl
+
+There will be obstacles that will require both players to work together to overcome.
+
+
+Now here are some level ideas:
+
+1. Getting out of bed
+2. Preparing to leave the house
+3. Commuting
+4. School
+5. Job/work
+6. Buying something at a store
+7. Restaurant
+8. Going to sleep
+
+I think for the sake of scope, I will only be making a single level. I want to choose commuting because I have ideas for that one.
+
+Now I should make a list of tasks for myself, and things I need to make this game happen. I'll sort them into must haves, should haves and could haves.
+
+##### Must Haves
+
+- 2 controllable player characters that can move left and right, and jump
+
+##### Should haves
+
+- trees to climb
+- puddles to swim through
+- food items to collect
+- energy meter
+
+##### Could haves
+
+- boss
+- wires
+- squirrels
+- eye contact
+- crossing streets
+
+This list will probably evolve with time, so I will leave it a bit bare for now.
+
+I'll give myself a list of things I should do next:
+
+- Sketch out level design
+- Make working characters in Unity
+- Work on the must haves, could haves, should haves list
+
+That feels manageable. So future me, these are the three next things we should be focusing on!
+
 ## Video Game Analysis - Fireboy and Watergirl
 
 I think this is one of the best multiplayer co-operative games out there. It's something I played a lot of as a kid with various different people. It is a game meant to be played with two players, one person controlling watergirl and the other fireboy. Each uses different keys but the characters can do the same movements: run and jump.
