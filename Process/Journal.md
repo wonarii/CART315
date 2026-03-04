@@ -1134,3 +1134,41 @@ I also like how they implemented the tutorial, with text fading in and out as a 
 
 I like how the game re-uses similar components but puts them in different situations. This can make the game easier to make but still provides variety for the player to go through. Perhaps I might want to make my own preset of obstacles, and then mix and match them to create levels.
 
+## Integration Prototype 2
+
+### 03/03/2026
+
+#### How do we start?
+
+There's so much to do but we need to choose one question to answer! Something we can answer by making a prototype!
+
+Risk assessment style.
+
+I want to focus on level design and collaborative play here. 
+
+#### Role Prototype - Level design sketches
+
+##### Description
+
+I will sketch out possible level designs and ideas for challenges and puzzles that require two people to work together to solve.
+
+
+##### Goal
+
+Can I make a level that encourages both players to work together to succeed?
+
+If I can't design any levels that would require two people and are fun, then the whole collaborative aspect is just useless.
+
+
+##### Process
+
+
+
+##### Results
+
+
+##### Feedback
+
+I have presented the prototypes to the co-designer to see what we can change and improve.
+
+
