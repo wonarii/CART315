@@ -1136,9 +1136,7 @@ I like how the game re-uses similar components but puts them in different situat
 
 ## Integration Prototype 2
 
-### 03/03/2026
-
-#### How do we start?
+### How do we start?
 
 There's so much to do but we need to choose one question to answer! Something we can answer by making a prototype!
 
@@ -1146,32 +1144,38 @@ Risk assessment style.
 
 I want to focus on level design and collaborative play here. 
 
-#### Role Prototype - Level design sketches
+### Role Prototype - Level design sketches
 
-##### Description
+#### Description
 
 I will sketch out possible level designs and ideas for challenges and puzzles that require two people to work together to solve.
 
 
-##### Goal
+#### Goal
 
 Can I make a level that encourages both players to work together to succeed?
 
 If I can't design any levels that would require two people and are fun, then the whole collaborative aspect is just useless.
 
 
-##### Process
+#### Process
 
 I used previous ideas andconcepts from fireboy and watergirl to come up with various different sketches.
 
 1. List out ideas with words
 2. Sketch various different obstacles and features to explore
 
-##### Results
+#### Results
 
 Here are pictures of my sketches.
 
-##### Feedback
+![Picture of my level sketches](/Process/Media/images/levelSketch01.jpeg)
+
+![Picture of my level sketches](/Process/Media/images/levelSketch02.jpeg)
+
+![Picture of my level sketches](/Process/Media/images/levelSketch03.jpeg)
+
+#### Feedback
 
 I have presented the prototypes to the co-designer to see what we can change and improve. 
 
@@ -1184,7 +1188,7 @@ While it would be a great motivator for players to advance, this game should be 
 
 While the obstacles are cool, there lacks a motivation or storyline to keep the player motivated to continue. There should be clearer goals and "rewards" for progressing. Just having obstacles makes the game feel empty, there should be more meaning behind actions.
 
-##### Review
+#### Review
 
 After going through all the sketches and reviewing the feedback, I've come up with a level design I think is much better.
 The story is that both players are navigating their nightmares. We'll start with Duck'snightmare, which explores the fear of isolation and loneliness.
@@ -1194,28 +1198,38 @@ The whole level would be dark with only Duck producing light, which brings an ex
 
 With this level design, I feel more secure about my game, and I would like to start working on implementation! While I have no yet designed the boss fight, I think it is best for me to focus on small sections at a time so I can have at least something functional at the end.
 
-#### Implementation Prototype - Flashlight feature
+![Picture of my level sketches](/Process/Media/images/levelSketch04.jpeg)
 
-##### Description
+### Implementation Prototype - Flashlight feature
+
+#### Description
 
 I want to test out the flashlight/spotlight aspect and see what it would look like, and how hard it would be to incorporate lighting into the game.
 
 
-##### Goal
+#### Goal
 
 Can I make a simple spotlight that follows a sprite around, while the rest of the screen is pitch black?
 
-##### Process
+#### Process
 
 I searched for tutorials online and found a very short one that seems to be good.
 
 1. Create the project files
 2. Add shapes and platforms (objects to light up)
+
+![screenshot of the shapes and platforms](/Process/Media/images/flashlightLayout.png)
+
 3. Follow tutorial and make the whole screen dark
+
+![screenshot of the shapes and platforms](/Process/Media/images/flashlightDark.png)
+
 4. Add a spotlight
 5. Test different ranges and intensities
 
-##### Results
+![screenshot of the shapes and platforms](/Process/Media/images/flashlightTest.png)
+
+#### Results
 
 The lighting works!
 
@@ -1224,7 +1238,7 @@ I still need to find out if I can make light go through obstacles but so far it 
 It is actually much simpler to implement than I thought, so the game will be very cool:)
 
 
-##### What's next?
+#### What's next?
 
 Testing light going through platforms and obstacles.
 
