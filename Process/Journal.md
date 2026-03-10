@@ -1162,13 +1162,38 @@ If I can't design any levels that would require two people and are fun, then the
 
 ##### Process
 
+I used previous ideas andconcepts from fireboy and watergirl to come up with various different sketches.
 
+1. List out ideas with words
+2. Sketch various different obstacles and features to explore
 
 ##### Results
 
+Here are pictures of my sketches.
 
 ##### Feedback
 
-I have presented the prototypes to the co-designer to see what we can change and improve.
+I have presented the prototypes to the co-designer to see what we can change and improve. 
+
+1. No getting chased/time-sensitive events
+
+Having a monster chase you would be too stressful and would increase the difficulty to a point where playing is no longer cozy and is instead scary.
+While it would be a great motivator for players to advance, this game should be calmer to allow more communication between players and exploration.
+
+2. Lack of initial theme?
+
+While the obstacles are cool, there lacks a motivation or storyline to keep the player motivated to continue. There should be clearer goals and "rewards" for progressing. Just having obstacles makes the game feel empty, there should be more meaning behind actions.
+
+##### Review
+
+After going through all the sketches and reviewing the feedback, I've come up with a level design I think is much better.
+The story is that both players are navigating their nightmares. We'll start with Duck'snightmare, which explores the fear of isolation and loneliness.
+I've decided to make Duck glow, but Cat will not. This way, Duck will feel a bit alone in a sense because they will need to move around to find Cat and will often be left alone in a spotlight.
+
+The whole level would be dark with only Duck producing light, which brings an extra layer of difficulty to my simple puzzles, without being too stressful (like the being chased thing).
+
+With this level design, I feel more secure about my game, and I would like to start working on implementation! While I have no yet designed the boss fight, I think it is best for me to focus on small sections at a time so I can have at least something functional at the end.
+
+
 
 
