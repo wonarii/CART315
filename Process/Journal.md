@@ -1222,12 +1222,12 @@ I searched for tutorials online and found a very short one that seems to be good
 
 3. Follow tutorial and make the whole screen dark
 
-![screenshot of the shapes and platforms](/Process/Media/images/flashlightDark.png)
+![screenshot of the shapes but dark](/Process/Media/images/flashlightDark.png)
 
 4. Add a spotlight
 5. Test different ranges and intensities
 
-![screenshot of the shapes and platforms](/Process/Media/images/flashlightTest.png)
+![screenshot of the  flashlight](/Process/Media/images/flashlightTest.png)
 
 #### Results
 
@@ -1241,4 +1241,12 @@ It is actually much simpler to implement than I thought, so the game will be ver
 #### What's next?
 
 Testing light going through platforms and obstacles.
+
+### Light through objects
+
+#### Yeah it works.
+
+It really wasn't that hard to test, I could have done it yesterday lol.
+
+![Recording of the flashlight moving](/Process/Media/images/FlashlightScreenRecording.gif)
 
