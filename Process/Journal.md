@@ -1194,6 +1194,37 @@ The whole level would be dark with only Duck producing light, which brings an ex
 
 With this level design, I feel more secure about my game, and I would like to start working on implementation! While I have no yet designed the boss fight, I think it is best for me to focus on small sections at a time so I can have at least something functional at the end.
 
+#### Implementation Prototype - Flashlight feature
+
+##### Description
+
+I want to test out the flashlight/spotlight aspect and see what it would look like, and how hard it would be to incorporate lighting into the game.
 
 
+##### Goal
+
+Can I make a simple spotlight that follows a sprite around, while the rest of the screen is pitch black?
+
+##### Process
+
+I searched for tutorials online and found a very short one that seems to be good.
+
+1. Create the project files
+2. Add shapes and platforms (objects to light up)
+3. Follow tutorial and make the whole screen dark
+4. Add a spotlight
+5. Test different ranges and intensities
+
+##### Results
+
+The lighting works!
+
+I still need to find out if I can make light go through obstacles but so far it looks good!
+
+It is actually much simpler to implement than I thought, so the game will be very cool:)
+
+
+##### What's next?
+
+Testing light going through platforms and obstacles.
 
