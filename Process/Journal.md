@@ -1250,3 +1250,13 @@ It really wasn't that hard to test, I could have done it yesterday lol.
 
 ![Recording of the flashlight moving](/Process/Media/images/FlashlightScreenRecording.gif)
 
+
+#### Next?
+
+Actually implementing the level would be nice. I will work on an implementation prototype and try and have a functioning level!
+
+First step would be to make the players move and jump, then add in the platforms and flashlight feature.
+
+Next, I would do the button with the door opening.
+
+I will save the climbing, puddle and quick sand for last because those are the most difficult, but also I can still make a playable level without them.
