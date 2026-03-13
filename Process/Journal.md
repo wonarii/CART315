@@ -668,7 +668,7 @@ I got distracted yesterday and just stopped working on the game to do something 
 
 I will finish up the score system!
 
-![Score goes up everytime the dino eats a grilled cheese](Process/Media/images/scoreGoingUp.gif)
+![Score goes up everytime the dino eats a grilled cheese](/Process/Media/images/scoreGoingUp.gif)
 
 It works pretty well now, but I feel like I compartmentalized it a bit too much, I have a GameManager, a Score and the grilled cheese all communicating with each other and that seems like a lot of unecessary steps.
 
@@ -709,3 +709,554 @@ I definitely can add more things, such as downwards force, side to side movement
 
 Those are future plans though, and not for today!
 
+## Iterative Prototype 1 - Coming up with ideas
+
+### 19/02/2026
+
+#### In class brainstorming
+
+So we were given a few minutes to come up with one idea.
+
+With what's been going on in my mind lately, I decided I want to make a game for my best friend. She's been cheering me on for forever and has been feeling down so I feel like it makes sense for me to do something for her. 
+
+And it also relieves me a bit of the pressure to do really well. Because I only need to do well for her. And she's impressed with almost anything I do so...
+
+Anyways, here's the list of "how might we"s I've come up with during that first brainstorm:
+
+How might we....
+- Make a game for (best friend)?
+- Make a game where you are a squirrel? (squirrel simulator)
+- Make a game to cheer up (best friend)?
+- Make a game about ducks?
+- Make a game that can help communicate bad feelings?
+- Make a game to visualize/organize thoughts?
+- Make a collecting game?
+- Make a multiplayer cooperative game?
+
+WE DO NOT JUDGE THE IDEAS HARSHLY PLEASE
+
+And so this was the start of something. The main theme is now obvious to me because I know my target audience very well. My target audience is me and my best friend.
+
+Next was to brainstorm a list of words related to the initial concept.
+
+I will now list a bunch of words and then after I will pass back and maybe expand on the ones I thought were interesting. (the pass back is happening one day later, so I had time to simmer a bit)
+
+- Multiplayer: I want to be able to play together with my friend. I think a cooperative game would go really well here because it's like I can show her what I've done by participating actively and being in the game world too. I do think I want it to be same device multiplayer though. Like Fireboy and Watergirl.
+- Different perspectives: It would be really cool if I can make it so the two players have different experiences as they play the game. 
+- Difficult communication: Speaking with NPCS or interacting with the world but also maybe between players themselves too.
+- Water/Drowning: I am a big fan of water imagery to represent emotions
+- Obstacles
+- Good ending: I don't want this game to be depressing, I want this to have a good ending. Or at least make you feel better after playing. Not frustrated or upset lol.
+- Cute: This is important. To get my friend to want to play a game, it should be cute. For that initial attraction.
+- Squirrels, ducks and cats: my bestie's favourite animals but also mine
+- Doing bad things: moral decisions?
+- Big bad
+- Fear
+- Anxiety
+- Unfamiliar world: Unconventiional interaction?
+- Things not made for you
+- Accessibility: This would be an interesting theme to explore, especially if I can create an unequal balance between the two players, where one action is much harder for one of the players to accomplish, and vice-versa.
+- Blue and yellow: our favourite colours but also colours that have symbolism (blue is sad and yellow is happy). Good contrast.
+- Eye contact: The ultimate insult
+- Forced smiles
+- Masking: This is a theme I might want to explore. This ties with exhaustion, energy levels and forgetting yourself.
+- Forgetting yourself
+- Loneliness in a coop game: THemes of loneliness would also be an interesting direction to take. And in a co-op game, how could we convey loneliness?
+- Music? Drone? Sounds?
+- Levels
+- Bad thoughts
+- Words
+- Nightmares
+- Judgement
+- People pleasing
+- Bullying
+- Family
+- Anger/Rage
+- SHame, Sadness, Despair, Guilt, Tired
+- Easy option vs difficult path
+- Energy levels
+- Love, joy, acceptance, grief
+- Disapointment
+- Expectations
+- Invisible barriers
+- Unequal skills
+- Platformer
+- Abyss
+- Crowds
+- Asking for help
+- Searching for community
+- Simple controls: If it's for my best friend, controls that control quick reaction times or the coordination of multiple buttons at once might not be it.
+- No reading: my friend doesn't read in games.
+
+The hybrid activity done in class was nice, but I became very attached to this idea, so not much of what was proposed helped out. EXCEPT for Nadia's idea. Nadia and I had the words Rage and High-alert. We came up with a game where you have a rage meter and you are trying to keep it under control by interacting with different elements. (for example, screaming into a pillow, or petting your cat). Triggers in the world try to make your rage worse.
+
+I liked the idea of a meter and trying to keep it under control. This ties in really well with my intial ideas.
+
+And then I went home and just as I'm about to sleep I get some new wonderful ideas.
+
+3D glasses?
+
+What if I could make a game that is played on one screen but using advanced 3d glasses technology, each player sees a different thing?
+
+So you know the thing where a red lense erases all the red stuff. And then the blue lense erases all the blue stuff so you only see the red?
+
+Yeah, that.
+
+Maybe that's something I want to play around with?
+
+Another idea I had that is more of just expanding on my keywords was to make a player a duck in a squirrel world or a squirrel in a duck world. Not sure which one yet, but the main concept would be that the squirrels and ducks have very different abilities, and if one tries to fit in with the others, they are doing significantly more work.
+
+Tomorrow I think I want to try and test out the red and blue thing, and maybe see if it works with other colours too. (i don't like red and blue, it just reminds me of tiktok and that's no good)
+
+I also want to remind myself that I need to choose something SMALL. ACHIEVABLE. LIMIT YOUR SCOPE.
+
+I always fall into the habit of wanting to do everything and then ending up with an unfinished mess I do not like.
+
+So I will choose ONE idea and then make something simple and basic but well done.
+
+And then if I have time I can consider doing more, but realistically, we won't be. 
+
+Also, I'll be seeing my friend this weekend so I will get the opportunity to discuss with her! Maybe I can get some good insight, or even have her involved in the game creation process as an assistant game designer. It might help me stay motivated and it helps to get external feedback as you do things. 
+
+### 21/02/2026
+
+#### Forcing myself to sit down in front of this computer and think
+
+I have all these great concepts but now I want to try them out.
+
+I'll start with the 3D thing with the red and blue.
+
+I do not have 3D glasses anywhere in my house so I'm going to try and colour a plastic protector sheet and see if that works?
+
+I'll also do a yellow one to see if that might work too.
+
+And orange. Orange is pretty hihihi
+
+Ok Hold on, I want to try and structure my journal a bit better so let's try something out here:
+
+#### Coloured lenses Experiment 1
+
+##### Description
+
+Testing coloured lenses as a potential way to have one screen show different things depending on what colour glasses users are wearing.
+
+##### Goal
+
+Is this a good concept to continue working with?
+
+Do colours other than red or blue work?
+
+##### Process
+
+1. Cut out pieces of transparent plastic
+2. Colour the plastic red, blue, orange and yellow
+3. Make drawings with the same colours on paper
+4. Move the plastic over the drawings and observe results
+
+Using the adobe express gif converter.Hopefully there's not secret charge hidden somewhere.
+
+ ![me testing the coloured lenses](/Process/Media/images/ColouredLenses1.gif)
+
+  ![Testing the coloured lenses with light blue](/Process/Media/images/ColouredLenses2.gif)
+
+
+##### Results
+
+The blue was too dark  when drawn on paper. This means I have to be careful that the colours I use are lighter or the same as the colours of the lenses.
+
+The red plastic hides yellow, red and orange, the orange plastic hides orange and yellow and the yellow plastic only hides yellow.
+
+So this means I can use yellows and oranges too!
+
+Marker on plastic doesn't dry and my hands are now incredibly colourful. And that means my keyboard too...
+
+Going back to my questions, 
+
+Is this a good concept to continue working with?
+
+I think it is fun, so yes.
+
+Do colours other than red or blue work?
+
+Yeessss!! Let's use blue and yellow!
+
+##### Future plans
+
+Try it on the computer monitor instead of on paper.
+
+#### Coloured lenses Experiment 2
+
+##### Description
+
+Testing the physical lenses on digital drawings and digital lenses on digital drawings.
+
+
+##### Goal
+
+Can I use the physical lenses to make the pictures on a monitor look different?
+
+Can I make a digital version of the lenses to add within the game?
+
+
+##### Process
+
+1. Draw scribbles of different colours in my drawing program. Test different coloured backgrounds too.
+2. Put lense in front of monitor and observe results.
+3. Put lense in front of my eyes/the camera and observe results
+4. Make a digital lense (low opacity coloured rectangle and observe results
+5. Test with multiple opacities and transparency settings
+
+ ![testing the coloured lense on the monitor](/Process/Media/images/ColouredLenses3.gif)
+
+![Testing digital version of coloured lenses](/Process/Media/images/DigitalColouredLenses2.gif)
+
+![Getting confused by colour theory](/Process/Media/images/DigitalColouredLenses1.gif)
+
+
+##### Results
+
+It... doesn't work?
+
+Also I don't want to stain my monitor so the lenses are staying a bit away.
+
+I think maybe my monitor colours are too dark?
+
+Also, while testing with the different background colours, I've noticed that the way the colours look and stand out changes based on the background.
+
+
+
+Can I use the physical lenses to make the pictures on a monitor look different?
+
+Maybe with better lenses but right now, no. I might have to find actual coloured plastic for this?
+
+Can I make a digital version of the lenses to add within the game?
+
+Also no, but I should try and find some online resources, maybe that would work?
+I feel like maybe having some sort of flashlight system?
+
+##### Future plans
+
+So, it doesn't really work, I think I want to pivot a bit and start thinking of what exactly I want to do for the game. This was fun to test though.
+
+#### Thinking....
+
+Eye contact.
+
+Maybe I can make a game environment to show how awful eye contact feels?
+
+Or like, a daily life platformer, and then there are obstacles?
+
+That would be too much. We must limit!!!
+
+Ok so here's what I want:
+
+- 2 players
+- same screen multiplayer
+- cooperative
+- yellow and blue
+- each player has their own strength and weaknesses in terms of what they can do in the game
+- each player perceives the world differently
+
+And the game will be centered around ONE issue
+
+Here's a list of potential issues I may want to explore:
+
+- Loneliness/isolation
+- Eye contact
+- Communicating with others
+- Fear of being judged
+- Masking
+- Anxiety
+- Pressure to be a good person
+- Nightmares
+
+I'll sit on it a bit and then come back when I've chosen one.
+
+### 23/02/2026
+
+#### Coming up with ideas is so much easier together
+
+Was in a bit of a slump but bouncing ideas off my firend really helped me feel more excited about this project!
+I can now picture how things could look like in the end.
+
+Here's some screenshots of our conversation:
+
+![Screenshots of text messages](/Process/Media/images/Messages1.png)
+![Screenshots of text messages](/Process/Media/images/Messages2.png)
+![Screenshots of text messages](/Process/Media/images/Messages3.png)
+![Screenshots of text messages](/Process/Media/images/Messages4.png)
+![Screenshots of text messages](/Process/Media/images/Messages5.png)
+![Screenshots of text messages](/Process/Media/images/Messages6.png)
+![Screenshots of text messages](/Process/Media/images/Messages7.png)
+![Screenshots of text messages](/Process/Media/images/Messages8.png)
+
+So, here's the final idea:
+
+1. It's a platformer with boss fights
+
+At the end of a level there will be a boss fight.
+
+2. The players are a duck and a cat
+
+They will be controlled using wasd and arrow keys. 
+
+3. Each player has an energy bar
+
+This will be their stamina/health and will go up or down depending on different obstacles. I think I want the bar to be different for each, so maybe one player has 25 and the other has 30 energy.
+
+4. Each player has different abilities
+
+Duck: can swim, fly (if not weighted down), dive
+
+Cat: Can climb and balance on some structures
+
+5. The world is made for squirrels (wires and trees and lots of vertical things)
+
+6. Collecting shiny things
+
+There are shiny things to collect. These are group points.
+
+7. Getting food
+
+The goal of the game would be to collect all the food throghout the level, beat the boss and leave.
+
+I'm thinking there should be 3 foods for each player to get (only they can get it).
+
+8. In the style of fireboy and watergirl
+
+There will be obstacles that will require both players to work together to overcome.
+
+
+Now here are some level ideas:
+
+1. Getting out of bed
+2. Preparing to leave the house
+3. Commuting
+4. School
+5. Job/work
+6. Buying something at a store
+7. Restaurant
+8. Going to sleep
+
+I think for the sake of scope, I will only be making a single level. I want to choose commuting because I have ideas for that one.
+
+Now I should make a list of tasks for myself, and things I need to make this game happen. I'll sort them into must haves, should haves and could haves.
+
+##### Must Haves
+
+- 2 controllable player characters that can move left and right, and jump
+
+##### Should haves
+
+- trees to climb
+- puddles to swim through
+- food items to collect
+- energy meter
+
+##### Could haves
+
+- boss
+- wires
+- squirrels
+- eye contact
+- crossing streets
+
+This list will probably evolve with time, so I will leave it a bit bare for now.
+
+I'll give myself a list of things I should do next:
+
+- Sketch out level design
+- Make working characters in Unity
+- Work on the must haves, could haves, should haves list
+
+That feels manageable. So future me, these are the three next things we should be focusing on!
+
+## Video Game Analysis - Fireboy and Watergirl
+
+I think this is one of the best multiplayer co-operative games out there. It's something I played a lot of as a kid with various different people. It is a game meant to be played with two players, one person controlling watergirl and the other fireboy. Each uses different keys but the characters can do the same movements: run and jump.
+
+Here's the link to play it online: [Game](https://fireboyand-watergirl.com)
+
+![Fireboy and Watergirl's first level](/Process/Media/images/Level1FireWater.png)
+
+### Let's analyze why it was fun!
+
+1. Simple controls
+
+wasd keys and arrow keys. That's it. No other buttons to press or memorize combinations of. I think the simple controls made the game very accessible to new players. It was your basic video game character controls, and it felt very intuitive. Up arrow meant up (jumping). Left and right are to move left and right. Pretty easy to get for a beginner. This meant not a lot of time had to be spent explaining the controls to anyone new you wanted to play with.
+
+I remember playing this as a kid, the wasd keys were for the most experienced player, as they were less intuitive than the arrow keys. It was an honour to be able to switch to the wasd keys when you became better at the game.
+
+2. Good tutorials/onboarding
+
+As you start the game, it explains how to play. It doesn't throw every single feature and puzzle at you at the start, it slowly introduces them and gives the player time to understand them, before adding someting else. The way the levels are built, you can trust that the next level might have some of the obstacles you currently encounter, plus maybe something new or an added twist. The familiarity between levels reduces utter confusion as to what to do next, and helps players solve the puzzles.
+
+![Fireboy and Watergirl's first level](/Process/Media/images/TutFireWater.png)
+![Fireboy and Watergirl's first level](/Process/Media/images/LeverFireWater.png)
+
+3. Challenge
+
+As you progress, the game becomes increasingly harder. The challenge and difficulty of the game was a mix of both physical skills (getting timings right, good reflexes) but also mental skills (solving puzzles, coordinating with your teammate).  This means players who might not be so good at one aspect (for example, aren't good at jumping at the right time) could still be good in other ways (solving the puzzles, determining which path to take...). The bigger the challenge, the better te satisfactiont to overcoming it. There was always big cheers when your teammate or yourself managed to get past a particularly difficult section. 
+
+![Fireboy and Watergirl's first level](/Process/Media/images/GameOverFireWater.png)
+
+4. Variety
+
+While each new level keeps some similarities to the previous one, there are also always new challenges or obstacles mixed in. Each new level required players to think about which path they should take, and how to get past new obstacles. The roles and responsibilities also get switched up, sometimes players need to be the ones to press the buttons while the other runs, or other times one player needs to jump on a platform and wait for the other to flick a lever. 
+Since every level feels new, the game doesn't feel repetitive, despite the characters only really being able to take 3 actions (run, wait or jump).
+
+![Fireboy and Watergirl's first level](/Process/Media/images/Level2FireWater.png)
+
+### What can I make better?
+
+While this is a really great example of a good co-operative game, there are some details I might want to change when making my own game.
+
+1. Challenge
+
+While the difficulty in fireboy and watergirl did make it feel more fun when you DO succeed, it was not so fun when you constantly fail. Especially so, when (as a kid who did not have the most quick reflexes) it was always the same person who messed up. This caused frustration and even lead to some people not wanting to play with you anymore if you sucked that bad. It also meant sometimes you would get pushed out of the way so they could take over your character and play your part for you. 
+
+For my own game, I want to make it more discovery and puzlle-y than reflex-y and timing. This would help reduce the skill gap and make players feel more involved. There will be no playing for another person here!
+
+2. Visuals
+
+To be fair, I'm not sure I want to focus on the visuals too hard for my own prototype but I will say that fireboy and watergirls visuals are a bit outdated. They still look cool though! and very nostalgic! But I'm not sure that's the style I want to go for with my own game. I would want my colours more cohesive. That's probably the only issue I have. Other than that the style itself is cute:)
+
+3. Lives system?
+
+Rather than an instant death and restart, maybe I could implement a life system, to be a bit more lenient with players and reduce frustration of having to restart constantly at the same spot.
+The number of remaining lives could affect final performance so players who want that extra difficulty could go ahead and try to get the best score possible, while players who are less skilled now have a higher chance of being able to progress forwards. 
+
+### What can I use?
+
+I would love to be able to use a similar system of two players relying on each other (so for example, the switches in Fireboy and watergirl need a player to stand there in order to activate a bridge, or open a door). 
+
+I also like how they implemented the tutorial, with text fading in and out as a player approaches a new obstacle. It is straight to the point, and let's the players learn by doing, rather than being forced to read. If they don't understand the new feature, they are barred from progressing, since understanding the feature is the only way to move forward. This prevents players getting stuck in further levels, where there isn't any tutorial text to guide you.
+
+I like how the game re-uses similar components but puts them in different situations. This can make the game easier to make but still provides variety for the player to go through. Perhaps I might want to make my own preset of obstacles, and then mix and match them to create levels.
+
+## Integration Prototype 2
+
+### How do we start?
+
+There's so much to do but we need to choose one question to answer! Something we can answer by making a prototype!
+
+Risk assessment style.
+
+I want to focus on level design and collaborative play here. 
+
+### Role Prototype - Level design sketches
+
+#### Description
+
+I will sketch out possible level designs and ideas for challenges and puzzles that require two people to work together to solve.
+
+
+#### Goal
+
+Can I make a level that encourages both players to work together to succeed?
+
+If I can't design any levels that would require two people and are fun, then the whole collaborative aspect is just useless.
+
+
+#### Process
+
+I used previous ideas andconcepts from fireboy and watergirl to come up with various different sketches.
+
+1. List out ideas with words
+2. Sketch various different obstacles and features to explore
+
+#### Results
+
+Here are pictures of my sketches.
+
+![Picture of my level sketches](/Process/Media/images/levelSketch01.jpeg)
+
+![Picture of my level sketches](/Process/Media/images/levelSketch02.jpeg)
+
+![Picture of my level sketches](/Process/Media/images/levelSketch03.jpeg)
+
+#### Feedback
+
+I have presented the prototypes to the co-designer to see what we can change and improve. 
+
+1. No getting chased/time-sensitive events
+
+Having a monster chase you would be too stressful and would increase the difficulty to a point where playing is no longer cozy and is instead scary.
+While it would be a great motivator for players to advance, this game should be calmer to allow more communication between players and exploration.
+
+2. Lack of initial theme?
+
+While the obstacles are cool, there lacks a motivation or storyline to keep the player motivated to continue. There should be clearer goals and "rewards" for progressing. Just having obstacles makes the game feel empty, there should be more meaning behind actions.
+
+#### Review
+
+After going through all the sketches and reviewing the feedback, I've come up with a level design I think is much better.
+The story is that both players are navigating their nightmares. We'll start with Duck'snightmare, which explores the fear of isolation and loneliness.
+I've decided to make Duck glow, but Cat will not. This way, Duck will feel a bit alone in a sense because they will need to move around to find Cat and will often be left alone in a spotlight.
+
+The whole level would be dark with only Duck producing light, which brings an extra layer of difficulty to my simple puzzles, without being too stressful (like the being chased thing).
+
+With this level design, I feel more secure about my game, and I would like to start working on implementation! While I have no yet designed the boss fight, I think it is best for me to focus on small sections at a time so I can have at least something functional at the end.
+
+![Picture of my level sketches](/Process/Media/images/levelSketch04.jpeg)
+
+### Implementation Prototype - Flashlight feature
+
+#### Description
+
+I want to test out the flashlight/spotlight aspect and see what it would look like, and how hard it would be to incorporate lighting into the game.
+
+
+#### Goal
+
+Can I make a simple spotlight that follows a sprite around, while the rest of the screen is pitch black?
+
+#### Process
+
+I searched for tutorials online and found a very short one that seems to be good.
+
+1. Create the project files
+2. Add shapes and platforms (objects to light up)
+
+![screenshot of the shapes and platforms](/Process/Media/images/flashlightLayout.png)
+
+3. Follow tutorial and make the whole screen dark
+
+![screenshot of the shapes but dark](/Process/Media/images/flashlightDark.png)
+
+4. Add a spotlight
+5. Test different ranges and intensities
+
+![screenshot of the  flashlight](/Process/Media/images/flashlightTest.png)
+
+#### Results
+
+The lighting works!
+
+I still need to find out if I can make light go through obstacles but so far it looks good!
+
+It is actually much simpler to implement than I thought, so the game will be very cool:)
+
+
+#### What's next?
+
+Testing light going through platforms and obstacles.
+
+### Light through objects
+
+#### Yeah it works.
+
+It really wasn't that hard to test, I could have done it yesterday lol.
+
+![Recording of the flashlight moving](/Process/Media/images/FlashlightScreenRecording.gif)
+
+
+#### Next?
+
+Actually implementing the level would be nice. I will work on an implementation prototype and try and have a functioning level!
+
+First step would be to make the players move and jump, then add in the platforms and flashlight feature.
+
+Next, I would do the button with the door opening.
+
+I will save the climbing, puddle and quick sand for last because those are the most difficult, but also I can still make a playable level without them.
