@@ -27,43 +27,40 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //we're gonna code each direction so it links to the proper function
+        //we need to calculate the direction
+        float inputX = 0;
+        float inputY = 0;
         //walk left
-        if (Input.GetKey(keycodeLeft)) walkLeft();
-        //walk right
-        if (Input.GetKey(keycodeRight)) walkRight();
-        //jump
-        if (Input.GetKey(keycodeUp)) jump();
-        //down will be for special actions 
-        if (Input.GetKey(keycodeDown)) down();
-    }
-
-    private void walkLeft()
-    {
-        Debug.Log("leftV");
-        playerRb.linearVelocity = new Vector3(-speed, 0,0);
-    }
-    
-    private void walkRight()
-    {
-        Debug.Log("rightV");
-        playerRb.linearVelocity = new Vector3(speed, 0,0);
-    }
-    
-    private void jump()
-    {
-        Debug.Log("jump");
-        if (isTouchingGround)
+        if (Input.GetKey(keycodeLeft))
         {
-            
-            //isTouchingGround = false;
+            inputX = -1;
         }
-        
+        //walk right
+        if (Input.GetKey(keycodeRight))
+        {
+            inputX = 1;
+        }
+        //jump
+        if (Input.GetKey(keycodeUp))
+        {
+            inputY = 1;
+        }
+        //down will be for special actions 
+        if (Input.GetKey(keycodeDown))
+        {
+            inputY = -1;
+        }
+
+        if (Mathf.Abs(inputX) > 0)
+        {
+            playerRb.linearVelocity = new Vector2(inputX*speed, playerRb.linearVelocity.y);
+        }
+        if (Mathf.Abs(inputY) > 0)
+        {
+            playerRb.linearVelocity = new Vector2(playerRb.linearVelocity.x, inputY*jumpForce);
+        }
+
     }
 
-    private void down()
-    {
-        Debug.Log("down");
-    }
-    
+   
 }
