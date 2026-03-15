@@ -1,12 +1,16 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 public class PlayerMovement : MonoBehaviour
 {
     //the player
     [SerializeField] Rigidbody2D playerRb;
+    [SerializeField] BoxCollider2D groundCheck;
+    public LayerMask groundMask;
+    
     //player speed
     public float speed;
     public float jumpForce;
+    public float drag;
     
     //check if the player is touching a platform
     private bool isTouchingGround;
@@ -55,12 +59,26 @@ public class PlayerMovement : MonoBehaviour
         {
             playerRb.linearVelocity = new Vector2(inputX*speed, playerRb.linearVelocity.y);
         }
-        if (Mathf.Abs(inputY) > 0)
+        if (Mathf.Abs(inputY) > 0 && isTouchingGround)
         {
             playerRb.linearVelocity = new Vector2(playerRb.linearVelocity.x, inputY*jumpForce);
         }
 
     }
 
+    void FixedUpdate()
+    {
+        checkGround();
+        if (isTouchingGround && playerRb.linearVelocity.x == 0 && playerRb.linearVelocity.y == 0)
+        {
+           playerRb.linearVelocity *= drag;
+        }
+    }
+
+    void checkGround()
+    {
+        isTouchingGround = Physics2D.OverlapAreaAll(groundCheck.bounds.min, groundCheck.bounds.max, groundMask).Length >
+                           0;
+    }
    
 }
