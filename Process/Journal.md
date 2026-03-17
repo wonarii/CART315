@@ -1260,3 +1260,87 @@ First step would be to make the players move and jump, then add in the platforms
 Next, I would do the button with the door opening.
 
 I will save the climbing, puddle and quick sand for last because those are the most difficult, but also I can still make a playable level without them.
+
+## Integration Prototype 3
+
+### Review of last week's prototype
+
+In class I showed my level design sketches to Nisma and Ethan. 
+
+Since my main goal for this game is to make it for my best friend, it was important that the difficulty of the game comes from the cooperation and puzzle solving aspects, and not time-sensitive elements or physical skills (pressing the buttons in the correct order very quickly).
+That's why suggestions of adding deaths, timers or unforgiving obstacles (obstacles that would mean instant game overs) were set aside.
+
+I asked them about giving extra hints or having elements glow, but they both agreed that having the players figure it out themselves was the better option. They did like the idea of me having tutorials and short explanations for features as they appear. Ethan warned against introducing features too early, especially if they aren't going to be used in a while, because players would forget about them and get frustrated if they encounter them later and don't know how to overcome them.
+
+I was also able to notice I forgot a climbing pole in part 2 for cat to get out of the button area.
+
+Nisma also suggested the door only opens when the button is held down (part 2 sketch). I really liked this idea because it had duck be more involved.
+
+This however, posed a problem with the quicksand trap, where a playercould get stuck by themselves in the trap and the other can't reach them.
+
+To solve this, we added a door that would only open once both players are in front at their spots. This would ensure that there is no one left behind, so the quicksand trap won't block them.
+
+### Implementation Prototype: Player movement
+
+
+#### Description
+
+I want to get the basic player movements in and implement Duck's light. 
+
+Duck should be able to walk side to side using a and d and w to jump. s was also mapped as down but might be used later for extra actions (such as pulling someone out of the quicksand).
+
+Cat uses the arrow keys but both players move the same.
+
+#### Goal
+
+Is the player movement speed appropriate?
+
+Is the jump height adequate for the obstacles presented in the level?
+
+How do the players interact with each other?
+
+Is Duck's light powerful enough to light up Cat's way, without lighting up too much?
+
+#### Process
+
+1. Fumble around with previous projects to try and make the movement
+2. Try (and fail) to use the new input system for Unity.
+3. Struggle with the old system for Unity.
+4. Find a [YouTube tutorial](https://www.youtube.com/watch?v=0-c3ErDzrh8)
+5. Discover the constrain rotation checkbox. (This could have solved my Dino getting knocked over by grilled cheese problem)
+6. Realize velocity is obsolete in Unity now.
+7. Find an alternative (Linear velocity).
+   ![Recording of the player jumping](/Process/Media/images/duckJumpingAround.gif)
+8. Make a prefab for the players so we can copy over the hard work easily for the second player.
+9. Struggle because gravity suddenly stopped working. (It was the simulated checkbox....)
+10. Add in platforms to jump around on.
+11. Add Duck's light.
+![Recording of Duck in the dark finding Cat](/Process/Media/images/catAndDuckInteracting.gif)
+12. Test and fix problems.
+
+Problems encountered:
+
+1. Players can infinitely jump up.
+   ![Recording of Duck and Cat going up](/Process/Media/images/DuckAscending.gif)
+Solution: Make a boolean to check if they are touching the ground or not.
+
+2. Players can't jump when on each other's heads.
+
+Solution: Give the players hats (collision boxes) on their heads to act as the ground.
+
+3. Players stick to walls.
+   ![Recording of Duck sticking to the platform wall](/Process/Media/images/DuckSticky.gif)
+Solution: Add a physics material to the player with friction set to 0.
+
+
+#### Results
+
+I'm very happy with how it turned out, I like the light's radius and I'm really happy duck and cat can jump on each other's heads, I think that encourages cooperation and gives the players more opportunities to interact with each other. Unfortunately, this might also cause problems where players can reach areas they shouldn't be able to, so I will have to test carefully and make sure this feature doesn't make it so players can trap themselves in weird places.
+
+![Recording of Duck and Cat moving around](/Process/Media/images/finalMovement.gif)
+
+#### What's next?
+
+Next, would be working on the camera system. I would like the camera to follow the players as they move forwards or backwards.
+
+I also want to implement the buttons and doors.
