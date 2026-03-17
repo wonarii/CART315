@@ -1310,18 +1310,24 @@ Is Duck's light powerful enough to light up Cat's way, without lighting up too m
 5. Discover the constrain rotation checkbox. (This could have solved my Dino getting knocked over by grilled cheese problem)
 6. Realize velocity is obsolete in Unity now.
 7. Find an alternative (Linear velocity).
-   ![Recording of the player jumping](/Process/Media/images/duckJumpingAround.gif)
-8. Make a prefab for the players so we can copy over the hard work easily for the second player.
-9. Struggle because gravity suddenly stopped working. (It was the simulated checkbox....)
-10. Add in platforms to jump around on.
-11. Add Duck's light.
+
+ ![Recording of the player jumping](/Process/Media/images/duckJumpingAround.gif)
+
+9. Make a prefab for the players so we can copy over the hard work easily for the second player.
+10. Struggle because gravity suddenly stopped working. (It was the simulated checkbox....)
+11. Add in platforms to jump around on.
+12. Add Duck's light.
+
 ![Recording of Duck in the dark finding Cat](/Process/Media/images/catAndDuckInteracting.gif)
+
 12. Test and fix problems.
 
 Problems encountered:
 
 1. Players can infinitely jump up.
-   ![Recording of Duck and Cat going up](/Process/Media/images/DuckAscending.gif)
+
+![Recording of Duck and Cat going up](/Process/Media/images/DuckAscending.gif)
+
 Solution: Make a boolean to check if they are touching the ground or not.
 
 2. Players can't jump when on each other's heads.
@@ -1329,7 +1335,9 @@ Solution: Make a boolean to check if they are touching the ground or not.
 Solution: Give the players hats (collision boxes) on their heads to act as the ground.
 
 3. Players stick to walls.
-   ![Recording of Duck sticking to the platform wall](/Process/Media/images/DuckSticky.gif)
+
+![Recording of Duck sticking to the platform wall](/Process/Media/images/DuckSticky.gif)
+
 Solution: Add a physics material to the player with friction set to 0.
 
 
