@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float drag;
     
     //check if the player is touching a platform
-    private bool isTouchingGround;
+    public bool isTouchingGround;
     
     //making the public fields for the controls
     public KeyCode keycodeLeft;
@@ -32,18 +32,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         //we need to calculate the direction
-        float inputX = 0;
+        float inputX = getInputX();
         float inputY = 0;
-        //walk left
-        if (Input.GetKey(keycodeLeft))
-        {
-            inputX = -1;
-        }
-        //walk right
-        if (Input.GetKey(keycodeRight))
-        {
-            inputX = 1;
-        }
+        
         //jump
         if (Input.GetKey(keycodeUp))
         {
@@ -66,10 +57,28 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    float getInputX()
+    {
+        float inputX = 0;
+        //walk left
+        if (Input.GetKey(keycodeLeft))
+        {
+            inputX = -1;
+        }
+        //walk right
+        if (Input.GetKey(keycodeRight))
+        {
+            inputX = 1;
+        }
+
+        return inputX;
+    }
+
     void FixedUpdate()
     {
         checkGround();
-        if (isTouchingGround && playerRb.linearVelocity.x == 0 && playerRb.linearVelocity.y == 0)
+        float inputX = getInputX();
+        if (isTouchingGround && inputX == 0)
         {
            playerRb.linearVelocity *= drag;
         }
