@@ -15,6 +15,9 @@ public class cameraMovement : MonoBehaviour
     [SerializeField] Rigidbody2D duck;
     [SerializeField] Rigidbody2D cat;
     
+    //camera velocity idk
+    public  Vector3 velocity = new Vector3(0,0,2);
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -52,6 +55,8 @@ public class cameraMovement : MonoBehaviour
 
     private void moveCamera(int direction)
     {
-        camera.transform.position = new Vector3(camera.transform.position.x + cameraSpeed * direction, camera.transform.position.y, camera.transform.position.z);
+        Vector3 targetPos= new Vector3(camera.transform.position.x + cameraSpeed * direction, camera.transform.position.y, camera.transform.position.z);
+        camera.transform.position = Vector3.SmoothDamp(camera.transform.position, targetPos, ref velocity, 0.01f);
+
     }
 }
