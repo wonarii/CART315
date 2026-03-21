@@ -32,7 +32,7 @@ public class cameraMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(cat.transform.position.x);
+       
         //when cat is past the move line, move camera so cat is about 1/4 way on the screen
         //BUT if duck is too close to the other edge (move zone) no camera movement allowed!!!!
         
@@ -40,7 +40,7 @@ public class cameraMovement : MonoBehaviour
         //if cat is close to right edge and duck is not close to left edge
         if (cat.transform.position.x > moveZoneR.transform.position.x && duck.transform.position.x > moveZoneL.transform.position.x)
         {
-            Debug.Log("IN THE RIGHT MOVE ZONE");
+           
             moveCamera(1);
         }
         
@@ -48,7 +48,7 @@ public class cameraMovement : MonoBehaviour
         //if cat is close to left edge and duck is not close to right edge
         if (cat.transform.position.x < moveZoneL.transform.position.x && duck.transform.position.x < moveZoneR.transform.position.x)
         {
-            Debug.Log("IN THE LEFT MOVE ZONE");
+           
             moveCamera(-1);
         }
     }
