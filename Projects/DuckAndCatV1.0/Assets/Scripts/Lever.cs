@@ -4,6 +4,7 @@ public class Lever : MonoBehaviour
 {
     
     [SerializeField] private GameObject greenLight;
+    [SerializeField] private GameObject redLight;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,7 +22,11 @@ public class Lever : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("onLight"))
         {
-            lightOn();
+            greenLightOn();
+        }
+        if (collider.gameObject.CompareTag("offLight"))
+        {
+            redLightOn();
         }
     }
 
@@ -30,19 +35,37 @@ public class Lever : MonoBehaviour
         
         if (collider.gameObject.CompareTag("onLight"))
         {
-            lightOff();
+            greenLightOff();
+        }
+        if (collider.gameObject.CompareTag("offLight"))
+        {
+            redLightOff();
         }
     }
 
-    private void lightOn()
+    private void greenLightOn()
     {
         greenLight.GetComponent<SpriteRenderer>().color = new Color32(77, 205, 108, 255);
         Debug.Log("On");
     }
 
-    private void lightOff()
+    private void greenLightOff()
     {
         greenLight.GetComponent<SpriteRenderer>().color = new Color32(65, 47, 73, 255);
         Debug.Log("Off");
     }
+    
+    private void redLightOn()
+    {
+        redLight.GetComponent<SpriteRenderer>().color = new Color32(205, 77, 77, 255);
+        Debug.Log("On");
+    }
+
+    private void redLightOff()
+    {
+        redLight.GetComponent<SpriteRenderer>().color = new Color32(65, 47, 73, 255);
+        Debug.Log("Off");
+    }
+    
+    
 }
