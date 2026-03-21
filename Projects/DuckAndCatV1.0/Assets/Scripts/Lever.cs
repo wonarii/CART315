@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Lever : MonoBehaviour
@@ -28,6 +29,19 @@ public class Lever : MonoBehaviour
         {
             redLightOn();
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("onLight"))
+        {
+            Door1.Door1Instance.openDoor();
+        }
+        if (collider.gameObject.CompareTag("offLight"))
+        {
+            Door1.Door1Instance.closeDoor();
+        }
+        
     }
 
     private void OnTriggerExit2D(Collider2D collider)
