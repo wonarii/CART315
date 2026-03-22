@@ -7,6 +7,9 @@ TagManager:
   - Lever
   - onLight
   - offLight
+  - water
+  - cat
+  - duck
   layers:
   - Default
   - TransparentFX
