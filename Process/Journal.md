@@ -1352,3 +1352,235 @@ I'm very happy with how it turned out, I like the light's radius and I'm really 
 Next, would be working on the camera system. I would like the camera to follow the players as they move forwards or backwards.
 
 I also want to implement the buttons and doors.
+
+## Iteration Prototype 4
+
+### Review of last week's prototype
+
+#### Issue: Player slides on floor
+
+Got to class to show all my progress from yesterday and when opening the game I noticed my players slid all over the ground.
+
+When I stop pressing the keys, they still continue gliding as if the floor was a slip n slide.
+
+##### Potential solution: Adding shoes?
+
+Maybe if I add another collision box under the character to reduce the sliding effect with a physic material it could help?
+
+....
+
+It made everything worse. 
+
+Shoes were NOT it.
+
+##### Potential solution: Go back a version on github
+
+I don't remember my players sliding so much last time I worked on the project so if I revert my last commit, maybe they will stop sliding around.
+
+.....
+
+That didn't solve anything, the last commit didn't change much.
+
+I did discover the source of the problem.
+
+##### The source of the problem.
+
+The source of the problem is..... the anti-stick to walls is anti-stick to everything :(
+
+If i remove it... we stick to walls again:/
+
+#### Potential solution: Remove the material
+
+The anti-stick to walls material is causing problems, so we'll remove it so we have less slip.
+
+We'll also modify the drag code (what was supposed to make the character slow down on the ground and move faster in the air).
+
+The drag modifications work, now we don't slip everywhere, but we also still stick to walls.
+
+I'm re-adding the material for no stick...
+
+And we stick? But there's no more slipping... hmmm
+
+![Fixed movement](/Process/Media/images/slideIssue01_dragFix.gif)
+
+#### IT WAS THE HAT!!!!!!!!!!
+
+THE HAT!?!?!?!? 
+
+I added a hat to my characters so they would recognize each other's heads as the ground. The hat size is what was interfering with the wall sticky-ness.
+
+By reducing the hat size and making it smaller than the body's width, I can make sure the hat never touches the walls, so the character will slide down properly.
+
+![Fixed movement](/Process/Media/images/slideIssue01_THEHATJHSAKLFN.gif)
+
+#### Comments from testers
+
+Fayfay said she really liked the squares and thinks I could just keep the game like that without adding sprites. It's something to think about since I might not have time to make some fully-animated sprites.
+
+Kelly suggested a really good option to mix the styles, and keep the squares but give them little faces and cute features. I really like this idea, I think it's a great time saver, since I won't have to deal with resizing all the colliders and it will still look super cute!
+I'm not at the stage yet where I want to add sprites in, but once I reach that point, I'll think about this idea again.
+
+### Camera movement
+
+#### Main Question
+
+How can I make the camera movements follow the players around the level smoothly?
+
+#### Additional requirements
+
+I think it would be really neat if Cat controls the camera movements while Duck has the light. This does however, add the extra challenge of making sure Duck can't get trapped anywhere. I need to restrict camera movement to make sure none of the players can get stuck off-screen.
+
+#### Process
+
+For my camera movement, I initially had the idea of putting colliders on each side of the screen (linked to the camera). This is cool, but Jimmy suggested another method I will use instead.
+
+Jimmy suggested using two emptys to track an x value on each side of the screen.
+
+In the code, I would check if the character has passed that point or no and then move the camera accordingly. This method is practical because I can always move the emptys around if I want to modify where the screen starts moving.
+
+![Camera movement](/Process/Media/images/cameraMovement01.gif)
+
+Unfortunately, now a new issue arises.
+
+The camera is super choppy.
+
+![Camera movement](/Process/Media/images/cameraMovement02.gif)
+
+To fix that, I used [this link](https://discussions.unity.com/t/smooth-camera-movement/783467/3)
+which led me to [this unity function](https://docs.unity3d.com/ScriptReference/Vector3.SmoothDamp.html)
+
+Camera damp!
+
+Super useful, solved my camera issues! Now it's just modifying the speed and I think it looks good.
+
+![Camera movement](/Process/Media/images/cameraMovement03.gif)
+
+##### Camera walls
+
+I added walls (colliders) to the camera anyways... These are there so the players can't go offscreen at all. They need to wait for the camera to move.
+
+Problem: Will these walls also interact with other objects too?
+
+I want to make sure these walls can only affect players...
+
+And there's a built-in unity function for that!
+
+I just changed the layer overrides in the collider attributes, and now only players can interact with the walls :)
+
+#### Results
+
+The camera works well, it follows Cat, but stops if Duck is too close to the other edge. This ensures the camera field of vision is consistent all the time. 
+
+There are also walls to prevent the players going off the screen!
+
+### Cat climbs...?
+
+While testing, I discovered Cat can climb walls. I'm not sure why or how, but this is super convenient, since one of cat's powers was being able to climb walls...
+
+Guess that's done then?
+
+![Fixed movement](/Process/Media/images/catClimbs.gif)
+
+### Switch
+
+Next, I want to make a button that when clicked, will open the door to let Cat out.
+
+I decided on a switch with a lever, so Cat can push it into position. This will help the visual feedback, and should help differentiate between hold-down buttons (that will be added later ) and one time pushes.
+
+#### Goal
+
+How do I make a switch that Cat can interact with, and that is intuitive to use?
+
+#### Issue 1
+
+![Lever leaving](/Process/Media/images/switch01.gif)
+
+... My lever leaves...
+
+After a 30 minute attempt to code it to stop, I've thought of a much simpler solution to this.
+
+I put collision walls inside the lever base.
+
+Now the lever stays put where it is supposed to be:)
+
+![Lever not leaving](/Process/Media/images/switch02.gif)
+
+I also wanted to reduce the slipperyness of the lever. Thanks to the wonderful Shrekathon mentors, I was able to learn about Linear damping, a simple value that removes that slide motion.
+
+#### The buttons
+
+I want the green and red lights to turn on when the lever is above them. 
+
+To do this, I added a collision box on the lights themselves. So now, when the lever overlaps with them, they get activated.
+
+SPECIAL MENTION: ONENTER IS NOT THE SAME AS ONTRIGGER
+
+(there was a slight struggle there)
+
+![Lever works for green](/Process/Media/images/switch03.gif)
+
+Got it working for green, now for red!
+
+#### The door
+
+Now that the switch works, I need to link it so that it actually activates the door.
+
+This is not too difficult, as I conveniently already made a way to check the lever position with the green and red lights.
+
+Now, the lever opens and closes the door for Cat!
+
+![Lever levering](/Process/Media/images/switch04.gif)
+
+### Water
+
+The next feature I want to implement is the water obstacle. 
+
+#### Goal
+
+How do I make an obstacle Duck can easily cross, but Cat needs Duck's help to overcome?
+
+#### Idea
+
+Let's drop the raft idea.
+
+Why?
+
+Because Duck IS the raft!
+
+Cat can just jump up on Duck's head!
+
+It's perfect!
+
+Now I need to think of the water obstacle itself.
+
+One of my main design goals here, is to make it so players can't "die" in my game.
+
+However, I want to prevent Cat from getting over without any help.
+
+Potential reactions to water could be...
+
+- Sinking?
+- Getting stuck?
+- Bouncing back?
+- respawning...
+
+The solution I came up with is to have Cat respawn on the side of the water if it falls in.
+
+This prevents Cat from getting to the other side, without killing it or being too frustrating.
+
+#### Implementation
+
+Right, so making the water is no problem at all. I can also use tags to let the water know if Duck or Cat is there.
+
+But now the issue is...
+
+The respawn is too fast!
+
+Cat immediately reappears, causing issues if a player is holding down right.
+
+They'll get stuck in a little loop of falling into the water, unless they stop pressing.
+
+I want to give them a bit more of a heads up before they plunge to their death.
+
+
+
