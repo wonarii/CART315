@@ -1582,5 +1582,19 @@ They'll get stuck in a little loop of falling into the water, unless they stop p
 
 I want to give them a bit more of a heads up before they plunge to their death.
 
+#### New problem?
+
+Cat can respawn off screen....
+
+Cat is trapped outside the camera...
+
+NOT GOOD.
+
+I decided to make it so Cat will respawn to the side closest to Duck, so they can never get stuck outside the camera (hopefully).
+
+This does give an easy cheat way to get across but I think that's a sacrifice I am willing to make.
+
+![Water!](/Process/Media/images/water01.gif)
+
 
 
