@@ -1596,5 +1596,107 @@ This does give an easy cheat way to get across but I think that's a sacrifice I 
 
 ![Water!](/Process/Media/images/water01.gif)
 
+## Iteration Prototype 5
+
+### Feedback from Tianshun and Junming
+
+#### Playing
+
+I got a duo to test my game. I think they're perfect playtesters since they haven't seen any of the previous game iterations, so they'll have a completely fresh perspective.
+
+They're also always hanging out with each other so I think they'll do a good job with the cooperative aspects.
+
+Here's the introduction I gave them:
+
+> This is a two-player cooperative game. One person uses the wasd keys and the other uses the arrow keys.
+> There are two squares, a yellow and a blue one. Only yellow has the light, so you have to find each other.
+
+Junming was yellow (Duck) and Tianshun took blue (Cat).
+
+It was really fun watching them figure it out without any clues. Junming started by exploring and jumping around. He soon discovered Tianshun and then they both started jumping around, staying near each other. This is something I haven't really thought of much, but it makes lots of sense. The players will prefer to stay near each other so they can see what they're doing.
+
+Both of them spotted the pink platform pretty quickly, and knew that was the way out for Tianshun (Cat). Unfortunately, they couldn't figure out how to get through. THey tried jumping on it, Junming (yellow) tried exploring the left side, but the camera was preventing movement.
+
+This is when i decided to give them a clue: Blue (Cat) controls the camera. 
+
+Right away, Tianshun knew where to go and they found the switch.
+
+There was a slight struggle getting out of the hole, since Junming fell in and to get out Duck NEEDS to jump on Cat's head.
+
+Cat can exit on their own by climbing. I don't think either of them figured out Cat's climbing abilities, so I'll have to find a way to introduce that.
+
+The water segment was the most fun to observe. Tianshun immediately went and died in the water, but didn't realize what happened, since when he respawned he was out of the light radius. Junming came back with the light to see what happened, and they pieced together that one person dies in water and the other doesn't. They did the little boat shuffle where both players try and move to the side at the same time bit by bit. This is exactly the type of collaboration I'm looking for!
+
+And that's the end of the level I worked on!
+
+#### Feedback
+
+##### Camera movement
+
+Both of them agreed I needed to find a way to let the players know that Cat controls the camera movements. 
+
+My initial plan is to have it written down like in Fireboy and Watergirl, but Junming got me thinking of how I could design the level to SHOW players that feature and have them figure it out.
+
+I think I might combine both approaches, so players who prefer exploration and who don't read can still figure it out, while slower players who take their time to read won't have to stumble around to try and figure it out.
+
+I'd like to try and redesign my level to have a long corridor where Duck and Cat are separated. This will force camera movements, and hopefully be able to show it.
+It would be even more effective if I could find a way to slow down Duck so players can clearly see which player is the one moving the camera.
+
+##### Water explanation
+
+Tianshun suggested adding a sign to show how Cat dies in water but Duck doesn't.
+
+When he first died, it was confusing since it looked like the character just vanished.
+
+Some indication or maybe a flash of light when Cat respawns could help.
+
+##### Sound effects
+
+Both of them told me how useful sound effects would be. Since most of the game happens in the dark and there's very little visual input, having audio input could counter that and help players get more information about what's going on. 
+
+This would help them move around even when visibility is low.
+
+It would also be useful to have sounds on the switch, so players can hear that something happens, even if they can't see it.
+
+##### Colour coded walls
+
+Tianshun suggested adding another feature: colour coded walls.
+
+The concept is simple.
+
+Blue can walk through blue walls, but yellow cannot. And vice-versa.
+
+It's an interesting idea to explore, but I think I will save this for later. Introducing too many features right away might be too complicated (both for the players to understand/play and for me to code)
+
+##### Switching colours
+
+Junming suggested players could be able to change colours, so they can swap abilities.
+
+This is a really cool concept too. I wouldn't let my players do it anytime, but having specific "colour-swapping" sections could be really fun to explore.
+
+Unfortunately, just like the last suggestion, this is something I will save for later for the sake of time...
+
+Great ideas for a level 2 if I want to make one!
+
+Junming shared a game he made for CART253 (pippin's class) that had a similar colour-changing and colour coded wall concept.
+
+It's a good inspiration if ever I have some extra time and want to try out the colour stuff!
+
+[Junming's game](https://le7els001.github.io/VariationJam/)
 
 
+#### Additional observations
+
+##### Cat starting point
+
+I think Cat should start in a small area where there IS light. This way, both players can situate themselves before diving into the level and puzzle solving. I noticed one issue was that Tianshun would have never known there was the Blue square unless I told him.
+
+Their initial reaction was: Where's the second player?
+
+While I do want to keep the theme of isolation and loneliness, I think having a light at the beginning only won't hurt the theme if it is small enough and placed strategically.
+
+##### Start screen
+
+I think I can have a cute start screen, where I would explain the controls before jumping into the game.
+
+This does feel like an extra, but if I'm not there to explain the game like I did today, how would players know what to do?
