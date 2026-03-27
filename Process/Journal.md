@@ -1700,3 +1700,75 @@ While I do want to keep the theme of isolation and loneliness, I think having a 
 I think I can have a cute start screen, where I would explain the controls before jumping into the game.
 
 This does feel like an extra, but if I'm not there to explain the game like I did today, how would players know what to do?
+
+### Adding platforms
+
+Working on the rest of the game...
+
+Important constraint to remember when placing platforms: CAT CAN CLIMB!!
+
+This feels like spider-proofing your house in minecraft.
+
+I need to make overhangs to everything to make sure Cat can't access weird areas and get stuck.
+
+### Feedback from Ethan
+
+I wanted to show Ethan my progress too
+
+#### Playing
+
+Ethan played as both characters, which requires a bit more concentration and motor skills to coordinate. 
+
+There was a big struggle to find Blue at the beginning ( I think it may be because he was jumping with both characters at once, making it so Duck can never spot Cat).
+
+Once he found Blue, he did understand the pink platform was significant, but again here, it wasn't easy to figure out what to do. 
+
+I was worried it's too hard to understand, but he did mention that games do have a learning curve, and its good to have players explore. Which is very true! I shouldn't be giving my payers everything for free, they need to figure some stuff out themselves!
+
+Once he found the lever, there was an issue where he thought it had to be pushed right. (nu-uh)
+
+##### Switch lights
+
+THE GREEN LIGHT ISN'T VISIBLE!
+
+Players can only  see the red light, so how could they know which way to push the lever?
+
+To fix this, I think I should either make the lever thinner, move it to the right more or change Duck's light radius slightly.
+
+I want to stay away from modifying Duck's light though, since I like the current level of visibility they have.
+
+##### Cat climbing
+
+Ethan thinks Cat can jump higher. Hasn't really figured out the climbing aspect.
+
+I really need to make it more obvious, especially since you use it to get out of the box.
+
+##### Water
+
+Again, the water respawn was a bt confusing, but he did figure it out pretty quickly, so it's not so bad a problem. This does confirm there are the same pain points as with Tianshun and Junming.
+
+##### Down arrow / S
+
+Those keys currently do nothing. Should I make it so the down keys make you plunge? This is default gamer controls, and I do think it would help make the characters easier to manipulate.
+
+Not quite sure on this yet, but something to think about...
+
+### Hold down buttons
+
+#### Goal
+
+Make a set of buttons that only open a door when held down (player stands on it). If a player gets off, the door closes.
+
+#### Issue 1: Button shape
+
+As seen with my switch, having a square platform is complicated, since my square players can't just walk on, they need to jump.
+
+For my switch, I added sloped sides so you can walk up to it.
+
+I think I will do the same thing for my button, since I expect Cat to do the button press in the dark, and that feels impossible to do if you have to constantly be jumping around to find the button.
+
+So sloped sides it is!
+
+#### Process
+
+
