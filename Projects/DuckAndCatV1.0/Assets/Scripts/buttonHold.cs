@@ -8,6 +8,7 @@ public class buttonHold : MonoBehaviour
     [SerializeField] private float buttonUpY;
     [SerializeField] private float buttonSpeed;
     private bool buttonHeld = false;
+    private static int oneButtonHeld = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,6 +31,15 @@ public class buttonHold : MonoBehaviour
         else
         {
             raiseButton();
+        }
+
+        if (button.transform.position.y <= buttonDownY)
+        {
+            DoorVertical.doorVerticalInstance.openDoor();
+        }
+        else if (oneButtonHeld == 0)
+        {
+            DoorVertical.doorVerticalInstance.closeDoor();
         }
     }
 
@@ -55,10 +65,14 @@ public class buttonHold : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         buttonHeld = true;
+        oneButtonHeld ++;
+
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         buttonHeld = false;
+        oneButtonHeld --;
+
     }
 }

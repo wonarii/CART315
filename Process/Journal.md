@@ -1808,5 +1808,51 @@ Ok so no difference really that I could spot, so I just put the entire button ba
 
 It still works so no issue there!
 
+#### Linking the button to the door
+
+Pretty much re-using the code for the other door (pink one), with just some modifications done to the values so it opens vertically.
+
+It works, but I'm wondering if it's a bit too fast?
+
+Also tested to see what happens if a player gets squished by the door. They get shoved into the ground but they can get out just fine, so it's not really a problem.
+
+#### Second button
+
+uh oh
+
+this is a problem...
+
+#### Issue 4: second button
+
+The second button interferes with the first one, since now the door is constantly opening unless both buttons are pressed.
+
+I think I will add a condition in the code that overrides the other button if one is activated...?
+
+I think I will need the help of my trusty debug.logs for this
+
+Very strange because my holds and releases seem to still be working, there might be an issue somewhere else...?
+
+Ok so found one issue and it's that the door is both trying to open and close at the same time.
+
+I'm going to try and make a static variable that is shared between both buttons so they can alert their condition to each other.
+
+....
+
+OK WELL NOW BOTH BUTTONS GO UP AND DOWN TOGETHER
+
+another variable!
+
+It works now!
+
+New bug introduced though.
+
+If both are messing with the buttons at the same time, there could be some unpredictable results and the door can get stuck.
+
+This is actually the stuff I'm learning in operating systems so I'll try and use a counting semaphore here.
+
+woohoo!
+
+Who knew computer science courses could actually be useful!
+
 
 
