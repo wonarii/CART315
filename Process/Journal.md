@@ -1872,5 +1872,13 @@ That was pretty simple.
 
 The last thing I want to add before i go back and fix my level is a way to actually win.
 
+I brainstormed a bit on paper and made a few sketches. I settled on making the pit of light idea.
 
+I want each player to have their own platform (colour coded to them) that they have to stand on at the same time.
+
+Then, I want a pit to open up below that they have to jump in together.
+
+I want to play around with the light, so have the pit emit light. I'm not quite sure yet how I'll do that though...
+
+Something to experiment on.
 
