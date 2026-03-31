@@ -1854,5 +1854,23 @@ woohoo!
 
 Who knew computer science courses could actually be useful!
 
+### No quicksand
+
+Yeah so even if it is in my initial level design sketch, I'm going to remove the quicksand. It's just another complicated thing to explain, and will just confuse players more than anything.
+
+I'm happy with the current features I have right now, so I'll be skipping the quicksand part and moving on.
+
+### Parkour parkour
+
+Now it's just about adding some jumping sections.
+
+I'll purposefully add parts where they need to use each other's heads to jump up.
+
+That was pretty simple. 
+
+### Exit/end
+
+The last thing I want to add before i go back and fix my level is a way to actually win.
+
 
 
