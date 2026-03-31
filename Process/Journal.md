@@ -1769,6 +1769,44 @@ I think I will do the same thing for my button, since I expect Cat to do the but
 
 So sloped sides it is!
 
-#### Process
+#### Issue 2: Jitter and button won't go down
+
+The button moves smoothly when rising but jitters when lowering.
+I think it's because of my code, when the button lowers, the player exits the collision area for a split second, causing the button to rise just a little bit.
+
+This looks ugly.
+
+##### Solution 1: Increase the speed of the button
+
+This didn't work, the same problem is present.
+
+I think it may even have gotten worse.
+
+##### Solution 2: Decrease the speed of the button
+
+Also does not solve my problem at all.
+
+The jitter is still very present.
+
+##### Solution 3: Increase the collision box area
+
+The jitter is still present but now the player floats above the button...
+
+##### Solution 4: Big collision box and trigger?
+
+If I set the collision to trigger and I modify my code a bit... Maybe?
+
+It works!!!
+
+The button goes down smoothly and my player doesn't float!
+
+#### Issue 3: Square in front of the platform...?
+
+This might have to do with layer order so I'll just go explore what I did for the triangles and why they're going behind the platform.
+
+Ok so no difference really that I could spot, so I just put the entire button back by changing the z position to 1.
+
+It still works so no issue there!
+
 
 
