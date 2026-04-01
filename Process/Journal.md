@@ -1906,5 +1906,5 @@ I want to play around with the light, so have the pit emit light. I'm not quite 
 
 Something to experiment on.
 
-![Sketch for game end and possible new level](/Process/Media/images/sketchGameEnding.jpeg)
+![Sketch for game end and possible new level](/Process/Media/images/sketchGameEnding.jpg)
 
