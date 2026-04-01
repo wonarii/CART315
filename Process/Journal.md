@@ -1711,6 +1711,8 @@ This feels like spider-proofing your house in minecraft.
 
 I need to make overhangs to everything to make sure Cat can't access weird areas and get stuck.
 
+![Platform placement](/Process/Media/images/platformPlacement.png)
+
 ### Feedback from Ethan
 
 I wanted to show Ethan my progress too
@@ -1769,12 +1771,16 @@ I think I will do the same thing for my button, since I expect Cat to do the but
 
 So sloped sides it is!
 
+![A trapezoid](/Process/Media/images/button01.png)
+
 #### Issue 2: Jitter and button won't go down
 
 The button moves smoothly when rising but jitters when lowering.
 I think it's because of my code, when the button lowers, the player exits the collision area for a split second, causing the button to rise just a little bit.
 
 This looks ugly.
+
+![Video of the button not lowering](/Process/Media/images/button03.gif)
 
 ##### Solution 1: Increase the speed of the button
 
@@ -1800,6 +1806,8 @@ It works!!!
 
 The button goes down smoothly and my player doesn't float!
 
+![Video of the button lowering nicely](/Process/Media/images/button04.gif)
+
 #### Issue 3: Square in front of the platform...?
 
 This might have to do with layer order so I'll just go explore what I did for the triangles and why they're going behind the platform.
@@ -1808,13 +1816,21 @@ Ok so no difference really that I could spot, so I just put the entire button ba
 
 It still works so no issue there!
 
+![Green square left over the platform](/Process/Media/images/button02.gif)
+
+![Green square gone](/Process/Media/images/button05.png)
+
 #### Linking the button to the door
 
 Pretty much re-using the code for the other door (pink one), with just some modifications done to the values so it opens vertically.
 
 It works, but I'm wondering if it's a bit too fast?
 
+![Door opening when the button is pressed](/Process/Media/images/button06.gif)
+
 Also tested to see what happens if a player gets squished by the door. They get shoved into the ground but they can get out just fine, so it's not really a problem.
+
+![Duck getting squished by the door](/Process/Media/images/button07.gif)
 
 #### Second button
 
@@ -1840,6 +1856,8 @@ I'm going to try and make a static variable that is shared between both buttons 
 
 OK WELL NOW BOTH BUTTONS GO UP AND DOWN TOGETHER
 
+![Both buttons work together](/Process/Media/images/button08.gif)
+
 another variable!
 
 It works now!
@@ -1848,11 +1866,15 @@ New bug introduced though.
 
 If both are messing with the buttons at the same time, there could be some unpredictable results and the door can get stuck.
 
+![Door getting stuck](/Process/Media/images/button09.gif)
+
 This is actually the stuff I'm learning in operating systems so I'll try and use a counting semaphore here.
 
 woohoo!
 
 Who knew computer science courses could actually be useful!
+
+![Working hold down buttons](/Process/Media/images/button10.gif)
 
 ### No quicksand
 
@@ -1868,6 +1890,8 @@ I'll purposefully add parts where they need to use each other's heads to jump up
 
 That was pretty simple. 
 
+![Parkour section complete](/Process/Media/images/platforms01.png)
+
 ### Exit/end
 
 The last thing I want to add before i go back and fix my level is a way to actually win.
@@ -1881,4 +1905,6 @@ Then, I want a pit to open up below that they have to jump in together.
 I want to play around with the light, so have the pit emit light. I'm not quite sure yet how I'll do that though...
 
 Something to experiment on.
+
+![Sketch for game end and possible new level](/Process/Media/images/sketchGameEnding.jpeg)
 
