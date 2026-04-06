@@ -1,16 +1,29 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+  
+  public static SceneChanger instance;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  void Awake()
+  {
+    instance = this;
+  }
+  public void changeToEndScreen()
+  {
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+  }
+  
+  public void changeToMainGame()
+  {
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+  }
+  
+  public void exitGame()
+  {
+    Debug.Log("Goodbye!");
+    Application.Quit();
+  }
+  
 }

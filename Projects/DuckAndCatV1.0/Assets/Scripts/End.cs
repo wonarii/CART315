@@ -24,6 +24,7 @@ public class End : MonoBehaviour
         if (duckEntered && catEntered)
         {
             //end game screen
+            SceneChanger.instance.changeToEndScreen();
         }
     }
 }
