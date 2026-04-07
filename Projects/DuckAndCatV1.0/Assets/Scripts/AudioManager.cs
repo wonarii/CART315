@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using Random = System.Random;
 
 public class AudioManager : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class AudioManager : MonoBehaviour
 
   [SerializeField] private AudioSource[] duckWalk;
   [SerializeField] private AudioSource[] catWalk;
+  private static bool catWalkPlaying = false;
+  private static bool duckWalkPlaying = false;
   
   [SerializeField] private AudioSource catJump;
   [SerializeField] private AudioSource duckJump;
@@ -26,16 +29,53 @@ public class AudioManager : MonoBehaviour
   void Awake()
   {
     instance = this;
+    
+    DontDestroyOnLoad(this.gameObject);
   }
 
   public void playDuckWalk()
   {
-    //randomizes the duck walk sounds
+    duckWalkPlaying = false;
+    //check if any other walk is currently playing
+    for (int i = 0; i < duckWalk.Length; i++)
+    {
+      if (duckWalk[i].isPlaying)
+      {
+        duckWalkPlaying = true;
+      }
+    }
+
+    if (!duckWalkPlaying)
+    {
+      //randomizes the cat walk sounds
+      Random randomizer = new Random();
+      int randomIndex = randomizer.Next(duckWalk.Length);
+
+      duckWalk[randomIndex].Play(0);
+    }
   }
 
   public void playCatWalk()
   {
-    //randomizes the cat walk sounds
+    catWalkPlaying = false;
+    //check if any other walk is currently playing
+    for (int i = 0; i < catWalk.Length; i++)
+    {
+      if (catWalk[i].isPlaying)
+      {
+        catWalkPlaying = true;
+      }
+    }
+
+    if (!catWalkPlaying)
+    {
+      //randomizes the cat walk sounds
+      Random randomizer = new Random();
+      int randomIndex = randomizer.Next(catWalk.Length);
+
+      catWalk[randomIndex].Play(0);
+    }
+
   }
   
   public void playCatClimb()
@@ -90,4 +130,7 @@ public class AudioManager : MonoBehaviour
   {
     success.Play(0);
   }
+
+
+ 
 }

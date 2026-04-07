@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -50,6 +51,15 @@ public class PlayerMovement : MonoBehaviour
         if (Mathf.Abs(inputX) > 0)
         {
             playerRb.linearVelocity = new Vector2(inputX*speed, playerRb.linearVelocity.y);
+            //walk noise
+            if (playerRb.CompareTag("duck") && isTouchingGround)
+            {
+                AudioManager.instance.playDuckWalk();
+            }
+            else if (playerRb.CompareTag("cat") && isTouchingGround)
+            {
+                AudioManager.instance.playCatWalk();
+            }
         }
         if (Mathf.Abs(inputY) > 0 && isTouchingGround)
         {
@@ -99,5 +109,7 @@ public class PlayerMovement : MonoBehaviour
         isTouchingGround = Physics2D.OverlapAreaAll(groundCheck.bounds.min, groundCheck.bounds.max, groundMask).Length >
                            0;
     }
+
+  
    
 }
