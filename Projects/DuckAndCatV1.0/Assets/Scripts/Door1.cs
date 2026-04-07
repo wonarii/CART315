@@ -29,6 +29,11 @@ public class Door1 : MonoBehaviour
         {
             door1.transform.position = new Vector3(door1.transform.position.x - doorSpeed, door1.transform.position.y, door1.transform.position.z);
         }
+        else
+        {
+            //door sound
+            AudioManager.instance.stopPlayDoor();
+        }
     }
 
     public void closeDoor()
@@ -36,6 +41,11 @@ public class Door1 : MonoBehaviour
         if (door1.transform.position.x < 7.562)
         {
             door1.transform.position = new Vector3(door1.transform.position.x + doorSpeed, door1.transform.position.y, door1.transform.position.z);
+        }
+        else
+        {
+            //door sound
+            AudioManager.instance.stopPlayDoor();
         }
     }
     

@@ -50,6 +50,9 @@ public class EndDoor : MonoBehaviour
         if (catInPosition && duckInPosition)
         {
             openDoor();
+            AudioManager.instance.playDoor3();
         }
     }
+
+    
 }

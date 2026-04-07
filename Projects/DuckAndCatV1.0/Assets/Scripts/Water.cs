@@ -23,11 +23,21 @@ public class Water : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        //play splashy noises
+        AudioManager.instance.playWaterSplash();
+        
         if (other.gameObject.tag == "cat")
         {
+            AudioManager.instance.playCatDrown();
             StartCoroutine(disableCat());
             
         }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        //stop playing water noises
+        AudioManager.instance.stopPlayWaterSplash();
     }
 
     private void respawnCat()

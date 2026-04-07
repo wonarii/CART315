@@ -34,6 +34,11 @@ public class DoorVertical : MonoBehaviour
             door.transform.position = new Vector3(door.transform.position.x, door.transform.position.y + doorSpeed,
                 door.transform.position.z);
         }
+        else
+        {
+            //door sound
+            AudioManager.instance.stopPlayDoor2();
+        }
     }
 
     public void closeDoor()
@@ -43,6 +48,11 @@ public class DoorVertical : MonoBehaviour
         {
             door.transform.position = new Vector3(door.transform.position.x, door.transform.position.y - doorSpeed,
                 door.transform.position.z);
+        }
+        else
+        {
+            //door sound
+            AudioManager.instance.stopPlayDoor2();
         }
     }
 }

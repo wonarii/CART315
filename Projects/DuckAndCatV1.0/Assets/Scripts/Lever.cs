@@ -24,10 +24,14 @@ public class Lever : MonoBehaviour
         if (collider.gameObject.CompareTag("onLight"))
         {
             greenLightOn();
+            //door sound
+            AudioManager.instance.playDoor();
         }
         if (collider.gameObject.CompareTag("offLight"))
         {
             redLightOn();
+            //door sound
+            AudioManager.instance.playDoor();
         }
     }
 

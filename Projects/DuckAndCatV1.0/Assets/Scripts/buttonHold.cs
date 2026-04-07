@@ -67,12 +67,23 @@ public class buttonHold : MonoBehaviour
         buttonHeld = true;
         oneButtonHeld ++;
 
+        if (oneButtonHeld == 2)
+        {
+            //door sound
+            AudioManager.instance.playDoor2();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         buttonHeld = false;
         oneButtonHeld --;
+
+        if (oneButtonHeld == 0)
+        {
+            //door sound
+            AudioManager.instance.playDoor2();
+        }
 
     }
 }

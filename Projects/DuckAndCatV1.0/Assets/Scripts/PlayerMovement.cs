@@ -42,11 +42,12 @@ public class PlayerMovement : MonoBehaviour
             inputY = 1;
            
         }
+        //WE REMOVED SPECIAL ACTIONS SO THIS IS UNECESSARY
         //down will be for special actions 
-        if (Input.GetKey(keycodeDown))
-        {
-            inputY = -1;
-        }
+        //if (Input.GetKey(keycodeDown))
+        //{
+        //    inputY = -1;
+        //}
 
         if (Mathf.Abs(inputX) > 0)
         {

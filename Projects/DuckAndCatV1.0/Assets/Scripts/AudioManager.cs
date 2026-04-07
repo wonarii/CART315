@@ -14,12 +14,13 @@ public class AudioManager : MonoBehaviour
   [SerializeField] private AudioSource catJump;
   [SerializeField] private AudioSource duckJump;
 
-  [SerializeField] private AudioSource catClimb;
-
   [SerializeField] private AudioSource door;
+  [SerializeField] private AudioSource door2;
+  [SerializeField] private AudioSource door3;
 
   [SerializeField] private AudioSource waterSplash;
   
+  [SerializeField] private AudioSource catDrown;
   [SerializeField] private AudioSource catRespawn;
   
   [SerializeField] private AudioSource buttonClick;
@@ -78,12 +79,6 @@ public class AudioManager : MonoBehaviour
 
   }
   
-  public void playCatClimb()
-  {
-    
-  }
-  
-
   public void playCatJump()
   {
     catJump.Play(0);
@@ -105,6 +100,30 @@ public class AudioManager : MonoBehaviour
   {
     door.Stop();
   }
+  
+  public void playDoor2()
+  {
+    door2.Play(0);
+  }
+  
+  public void stopPlayDoor2()
+  {
+    door2.Stop();
+  }
+  
+  public void playDoor3()
+  {
+    if (!door3.isPlaying)
+    {
+      door3.Play(0);
+    }
+  }
+  
+  public void stopPlayDoor3()
+  {
+    door3.Stop();
+  }
+
 
   public void playWaterSplash()
   {
@@ -119,6 +138,11 @@ public class AudioManager : MonoBehaviour
   public void playCatRespawn()
   {
     catRespawn.Play(0);
+  }
+  
+  public void playCatDrown()
+  {
+    catDrown.Play(0);
   }
 
   public void playButtonClick()
