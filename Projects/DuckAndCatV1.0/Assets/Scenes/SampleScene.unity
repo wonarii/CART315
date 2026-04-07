@@ -521,6 +521,10 @@ PrefabInstance:
       value: 0.0055553913
       objectReference: {fileID: 0}
     - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1526402965927178479, guid: 7d91816b4663bc341af34e0734737de1, type: 3}
+    - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
       propertyPath: m_Color.b
       value: 0.8113208
       objectReference: {fileID: 0}
@@ -4543,6 +4547,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.0024567842
       objectReference: {fileID: 0}
+    - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8485060497914236483, guid: c08e17d23070e5948b4f76bd55a33980, type: 3}
     - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
       propertyPath: m_Enabled
       value: 1
