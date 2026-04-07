@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(keycodeUp))
         {
             inputY = 1;
+           
         }
         //down will be for special actions 
         if (Input.GetKey(keycodeDown))
@@ -53,6 +54,15 @@ public class PlayerMovement : MonoBehaviour
         if (Mathf.Abs(inputY) > 0 && isTouchingGround)
         {
             playerRb.linearVelocity = new Vector2(playerRb.linearVelocity.x, inputY*jumpForce);
+            //jump noise
+            if (playerRb.CompareTag("duck"))
+            {
+                AudioManager.instance.playDuckJump();
+            }
+            else if (playerRb.CompareTag("cat"))
+            {
+                AudioManager.instance.playCatJump();
+            }
         }
 
     }

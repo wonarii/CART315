@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class End : MonoBehaviour
@@ -23,8 +24,18 @@ public class End : MonoBehaviour
     {
         if (duckEntered && catEntered)
         {
+            //play success sound
+            AudioManager.instance.playSuccess();
+
+            StartCoroutine(waitChangeScenes());
+             
             //end game screen
             SceneChanger.instance.changeToEndScreen();
         }
+    }
+    
+    IEnumerator waitChangeScenes()
+    {
+        yield return new WaitForSeconds(2);
     }
 }

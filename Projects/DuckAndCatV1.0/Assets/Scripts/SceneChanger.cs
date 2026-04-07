@@ -12,16 +12,19 @@ public class SceneChanger : MonoBehaviour
   }
   public void changeToEndScreen()
   {
+    
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
   }
   
   public void changeToMainGame()
   {
+    AudioManager.instance.playButtonClick();
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
   }
   
   public void exitGame()
   {
+    AudioManager.instance.playButtonClick();
     Debug.Log("Goodbye!");
     Application.Quit();
   }

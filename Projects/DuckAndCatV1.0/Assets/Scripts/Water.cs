@@ -32,6 +32,8 @@ public class Water : MonoBehaviour
 
     private void respawnCat()
     {
+        AudioManager.instance.playCatRespawn();
+        
         if (Mathf.Abs(duck.transform.position.x - respawnR.transform.position.x) <
             Mathf.Abs(duck.transform.position.x - respawnL.transform.position.x))
         {
