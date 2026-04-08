@@ -751,7 +751,7 @@ MonoBehaviour:
   m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 000000000585c01e
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -3011,8 +3011,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 515933445
+      objectReference: {fileID: 0}
+    - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 396372803893545736, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
       propertyPath: m_Size.x
@@ -3415,7 +3427,7 @@ MonoBehaviour:
   m_Intensity: 8
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 000000000585c01e
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -3515,7 +3527,7 @@ MonoBehaviour:
   m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 000000000585c01e
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -3922,7 +3934,7 @@ MonoBehaviour:
   m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 000000000585c01e
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -5689,6 +5701,18 @@ PrefabInstance:
     - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 515933445
+      objectReference: {fileID: 0}
+    - target: {fileID: 285894607852738945, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1943301825461198517, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
       propertyPath: m_LocalScale.x
