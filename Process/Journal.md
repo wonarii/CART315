@@ -1908,3 +1908,211 @@ Something to experiment on.
 
 ![Sketch for game end and possible new level](/Process/Media/images/sketchGameEnding.jpg)
 
+## Final Iterative Prototype
+
+Uhm... So I thought the last entry was the final one but I guess not...
+
+Unfortunately that means I don't have any wip gifs, but I can record the final results.
+
+### End of game
+
+I used the sketches I made previously as a guide for how my ending should function.
+
+Since I'm now used to making buttons and doors, it wasn't too difficult to implement the two platforms the players need to stand on, nor was it difficult to make the door move.
+
+I did encounter some slight issues, but the fixes were very small.
+
+#### Issue 1: Sides of platforms
+
+Duck and Cat can activate the end platforms just by standing next to them since their collision boxes go all the way to the edge of the square.
+
+There's a few ways to fix this, but I just chose to make the collision box smaller, so that the players get blocked by the square's physical form and can't reach the sides of the collision box. 
+This does mean that a small section on either side of the top of the platform is also inactive (can't detect player collisions), but I think that works fine, since I want the players to sit properly on the platforms, and if they are on that tiny sliver to the side, they are not sitting on the platform properly and it shouldn't count as an activation anyways.
+
+#### Issue 2: Light
+
+I wanted to make it clear that players have to jump into the pit that opens up. Not super super clear but clear enough.
+
+Since I do still have the idea of exploring themes of isolation and such, and this initial level was designed to represent a nightmare sequence, I want the pit at the end to make players a little bit unsure of if they want to jump in. It's like taking a risk.
+
+But I also want players to intentionally jump in, so having the pit in the dark makes no sense, they'll just walk in.
+
+That's why I added a light in the pit.
+
+It took a few tries to get the intensity at the level I wanted but I'm pretty satisfied with it.
+
+The light turns on as the pit opens, but is a little hard to see when Duck is right there, since Duck has a much brighter light.
+
+![The pit and Duck](/Process/Media/images/thePit.png)
+
+After watching Sherwin playtest my game, yeah... Maybe not so obvious you have to jump into the pit.
+
+I'll still keep it as is though.
+
+It's an extra puzzle to solve.
+
+### End screen
+
+To make it more obvious you beat the game, I added an end screen. This lets players know there's no more game to play and they did it!
+
+The exit button is supposed to close the application, so players can leave my game without having to kill it.
+
+#### Issue: What happens when you click the button on the itch page?
+
+Can it end up closing the entire browser or something?
+
+So...Nothing happens...
+
+That's fine I guess.
+
+A bit of a useless button but eh.
+
+### Start screen
+
+While I did make a sketch for a tutorial or extra level before the game, I decided against implementing it, purely based on cost (effort and time).
+
+Instead, I have a more budget alternative:
+
+A start screen.
+
+This start screen will not only introduce the players to the game, but also serves as a mini-tutorial of sorts. (that is, if they choose to read, most people just completely skip past it)
+
+My start screen has basic rules and lets the players test some of the features such as the climbing, camera movements and jumping/moving around.
+
+This also shows players both Duck and Cat, so they know what they look like before they get plunged into darkness.
+
+![The start screen](/Process/Media/images/DuckAndCatStartScreen.png)
+
+### Sounds
+
+I added sounds.
+
+Not much to report here. 
+
+#### Walking issue
+
+So, the sounds do stack... 
+
+I had to make sure the footstep sounds couldn't play at the same time, otherwise it plays about 1000000 sounds all at once when you walk.
+
+(It still does this when Cat climbs, but I've decided it's funny and part of the game. Might be a fix for later.)
+
+#### Jump noises issue
+
+Ok so this issue I only noticed after everything is done but if I play the game with headphones, the jump noises have this annoying vibration sound at the beginning. This isn't there if the sound is played through my laptop speakers so that's why I never noticed...
+
+I'm keeping it as is, since the game was never really meant to be played with headphones anyways (2 people need to be hearing things) but it is another thing I can add to my list of potential changes.
+
+#### Door issue
+
+This was a simple issue to fix but linking the same AudioSource to all three doors doesn't work. If one door says to play the sound, the others will tell it to stop playing because the door has reached the close position. So that'swhy I had to make 3 identical AudioSources.
+
+### Sprites
+
+Veryyy simple sprites.
+
+Just like Kelly suggested, I added little faces to the squares and they look cute!
+
+I had to resize my images to 100x100 outside of unity since I couldn't figure out how to resize only the sprite image and not the whole sprite.
+
+The duck's beak is also a dark orange in the actual game, because the light is so bright it ends up erasing the beak if it is too pale.
+
+### Build
+
+Finally! I can publish my game on itch!
+
+Here's the link: [Duck And Cat](https://wonarii.itch.io/duck-and-cat)
+
+Building was horrible.
+
+#### Issue 1: Disappearing sprites
+
+Game works and what happens when I upload it to itch? 
+
+The sprites are invisible...
+
+![The game without sprites](/Process/Media/images/imagevisSprites.png)
+
+I know the players are still there because I can hear them walking, the light and camera move, but I can't see their faces!
+
+Obviously, I go and ask Jimmy on Discord why this is happening.
+
+It's a layer issue!
+
+In the sprite settings, I can add an extra layer and make sure that my sprites are rendered properly, in front of everything else.
+
+Yayy!!!
+
+### Playtesting Jimmy
+
+Everything's published on itch and what does Jimmy decide to do?
+
+Break my game.
+
+#### Abyss
+
+He found a way to exit the map and fall into the infinite abyss.
+
+The abyss issue is easy, I just added a roof to the entire level and made sure there were no gaps to fall through.
+
+#### Unaligned corners
+
+I'm also getting complaints about unaligned platforms.
+
+So... fixing time.
+
+The alignment is much more difficult, since my rectangles are uneven sizes.
+
+Still tried my best.
+
+#### Cat confusion with lever
+
+He can't find the lever and gets stuck on it.
+
+Not my problem, skill issue.
+
+So now my game works right...?
+
+### Playtesting Sherwin
+
+No. The game still has bugs.
+
+#### Abyss 2
+
+Sherwin found a different way to make the Cat fall into the abyss.
+
+Sigh.
+
+I'll make another box...
+
+#### Screen Size
+
+My game on itch also has a smaller screen size than the one I've been playing in the editor, so everything I've hidden on the edge of the screen became hidden.
+
+To fix this, I'm thinking of moving the points where Cat triggers camera movements a little closer to the center, so the camera moves more and hopefully lets players see a bit better.
+
+#### Invisible sprites
+
+Oops. I forgot to check the end screen for sprites.
+
+They are indeed invisible, but this is something I can easily fix. (layers!)
+
+uhhh... After a quick look... The layers are there?
+
+But my sprites are still invisible...
+
+I'll try and make even more layers?
+
+It's weird though, it seems like now my global lighting no longer affects the players...
+
+Ok extra layers worked.
+
+Not sure why, but that's ok.
+
+#### Lever
+
+Ok so maybe Jimmy's skill issue is actually a problem with my game. I remember Tianshun and JUnming also had this problem. 
+
+I'll try moving the lever a little closer to the wall, so Duck can illuminate it a bit better.
+
+### READY FOR THE PLAYTEST!
