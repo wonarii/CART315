@@ -1315,7 +1315,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Duck
 
-    - W A S keys to move
+    - W A D keys to move
 
     - Has a light
 
@@ -1552,6 +1552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 679640067}
   - component: {fileID: 679640066}
+  - component: {fileID: 679640068}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1586,6 +1587,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &679640068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679640065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2cccfe5ba57fe4a816caf11143c85d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  cat: {fileID: 1970873654}
+  duck: {fileID: 1347875891}
 --- !u!1 &717291294
 GameObject:
   m_ObjectHideFlags: 0
@@ -3141,6 +3156,11 @@ Rigidbody2D:
 --- !u!4 &1347875890 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1943301825461198517, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+  m_PrefabInstance: {fileID: 1347875888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1347875891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5778361618316989907, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
   m_PrefabInstance: {fileID: 1347875888}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1358615473
@@ -5822,6 +5842,11 @@ Rigidbody2D:
 --- !u!4 &1970873653 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1943301825461198517, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
+  m_PrefabInstance: {fileID: 1970873651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1970873654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5778361618316989907, guid: 37bafb63c90eda645b7875688fe14c5e, type: 3}
   m_PrefabInstance: {fileID: 1970873651}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1985987795

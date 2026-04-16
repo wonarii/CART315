@@ -28,5 +28,11 @@ public class SceneChanger : MonoBehaviour
     Debug.Log("Goodbye!");
     Application.Quit();
   }
+
+  public void restartGame()
+  {
+    AudioManager.instance.playButtonClick();
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+  }
   
 }

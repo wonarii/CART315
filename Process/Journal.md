@@ -2116,3 +2116,133 @@ Ok so maybe Jimmy's skill issue is actually a problem with my game. I remember T
 I'll try moving the lever a little closer to the wall, so Duck can illuminate it a bit better.
 
 ### READY FOR THE PLAYTEST!
+
+## Final Reflection!
+
+### In class feedback
+
+It was amazing to get to see people play my game and solve the puzzle I made for them. It felt incredibly rewarding to see people notice the clues I gave them and work together to get through my level!
+
+I purposefully tried to have people play in pairs, so that I could properly test the game as a two player game. I've noticed that players who play on their own actually have a bit of a harder time solving puzzles because they seem to only focus on Duck and ignore Cat a lot. When it's two people however, each person is focused on their own character, so puzzles get solved a bit quicker (since Cat players figure out Cat's role faster than a single player would.)
+I also noticed it's a bit harder on the parkour for single players since they need to focus on two characters, which can overload their brain making their jumping skills less accurate.
+
+My favourite part to watch is the water shuffle. When players notice Cat can't swim, they do a little shuffle across the body of water where one player moves forward a bit, then the next and they alternate like that.  I find it so cute!
+
+#### The J team
+
+The first duo that played my game was Josephine and Junming. Junming had already played the level before in a previous test, but didn't reach the complete end. 
+
+Since they were both shy people, they didn't talk much, but still worked really well together to solve the level.
+
+Together, they even managed to get Duck up to the green button, which is not somewhere I thought Duck would ever be able to reach, but with their skills, they got Duck to jump up on Cat's head while Cat was climbing, and got Duck up there. This is something I never could have done by testing alone since I don't have the coordination to do that with the characters. It's nice to have skilled players test the game, because they can achieve things I can't!
+
+I also noticed how my water obstacle was an unintentional "wall" preventing Cat from straying too far from the Green door and getting the team stranded. Yay unintentional game design!
+
+#### Ethan and Jolene
+
+When the second team rolled around, I noticed something that would be very helpful to add: A play again button. Since my exit button doesn't work on web builds anyways, I should add a play agian button so restarting the game is faster and I don't have to exit fullscreen every time!
+
+Here again they got Duck to reach the green button. And... Ethan got stuck in a corner...
+
+![Duck stuck between the wall and the button](/Process/Media/images/duckCornerOfShame.png)
+
+Since I had only ever tested it with Cat going up there, I guess Cat can't get stuck since they can climb. 
+
+But Duck can get stuck. Duck got wedged between the wall and the button, and I think since Duck's feet couldn't detect the ground anymore, Duck was trapped unable to jump out.
+
+Very easy fix, I just scooched the button over a bit so it wouldn't be so close to the wall!
+
+Jolene and Ethan both agreed here that giving Duck more light would be nice. It's very hard to play with no visibility. They said that with Duck's light being so small, it forced players to always stick next to each other.
+
+Since that's the point of my game, I decided I want to keep the light level as is. (this will come back later, read on!)
+
+Jolene also noticed that the gravity felt a bit off, like the characters were a bit too bouncy?
+I think I would agree with her on this, but I'm too scared to be messing with those numbers, since it might mean I have to move all the platforms again, and I don't want to do that.
+
+Ethan also noticed that the WAS instructions were wrong. It should be WAD instead. I'll fix that.
+
+#### One of the sisters (I forgot to ask her name and I can't tell them apart)
+
+So Julia or Olivia played my game solo.
+
+She really liked "Cat's mischievious face". I'm very glad!
+
+She said it reminded her of Friv games we used to play in the school's computer lab. That was a big inspiration for me (Fireboy and Watergirl) so hearing that made me really happy!
+
+She suggested adding a background music to the game. A really great idea but I had already decided this game was done, so I'll save that idea for Duck and Cat 2.
+
+#### Fayfay and Alex
+
+Perhaps the funniest duo to watch play.
+
+They were very vocal and would yell at each other a lot.
+
+"I need to SEE! Come HERE!" This was pretty frequent, and I really liked these interactions. Again, when they finished playing they both thought Duck needed to emit more light, but I think I want the frustration to be part of the game. Duck's light level is a big limitation and challenge and I liked how it forced players to move around together, jump up and down to light up as much as possible and yeah, struggle a little.
+
+I like the challenge I gave them. And the low lighting made the game last longer too.
+
+I also loved the simultaneous understanding when they figure out how a door works. 
+
+"OOOOOOOOOOOHHHHHHHH!!!!"
+
+(they found the button)
+
+This also reinforced the fact that no one ever reads the tutorial. 
+
+"what tutorial?"
+
+That's what they ask me...
+
+I guess it's nice that they can still play without it then?
+
+#### Light problem
+
+I talked about this a lot but it's the major complaint I get about my game. 
+
+But also something I'm very stubborn about.
+
+Jimmy suggested a really great idea though.
+
+I should have Duck be able to emit a larger radius of light,but only for a small time frame, and Duck should be stuck in place to trigger that ability.
+
+He suggested having Duck hold their breath and expand so the light gets bigger.
+
+I LOVE this idea! I would maybe rework it so maybe there's a limited amount of charge Duck can use, or a stamina bar, but this can fulfill people's want for more light without giving them too much.
+
+Did I implement it? No.
+
+Like I stated before, I consider Duck and Cat V1 to be complete as is.
+
+But...
+
+If I ever do Duck and Cat V2...
+
+That's the first thing I'll be testing out.
+
+#### Final fixes
+
+The small fixes I decided to do for Duck and Cat are as follows:
+
+1. WAS -> WAD in the tutorial screen
+2. Move the green button so Duck can't get stuck
+3. Play again button
+
+### Overall reflection
+
+My goal for this semester was learning to scope projects better.
+
+And I think I succeeded there. I'm very statisfied with the amount I was able to accomplish, and how I managed to complete everything I planned for.
+
+I did have some slight scope reworks (especially at the very start of the project), but I did a good estimation of my abilities and the cost of the project.
+
+I learnt a lot about Unity development with this project, but most of all, I learnt the importance of feedback.
+
+Having my classmates and friends playtest my game, look over my work and suggest ideas really helped me develop my game.
+
+I tend to get caught up in my own little bubble, so to see how others experience what I create can really encourage me to improve my work and fix all the mistakes I didn't notice myself.
+
+I think I might even start asking people for feedback on other projects too because that external feedback is what allowed my project to feel "polished" to me. It also helped guide the next steps I should take in development and understand if I was on the right track or not.
+
+That's all for Duck and Cat, I'll be playing the final version with my friend very soon, I hope she likes it:)
+
+[itch page of the game](https://wonarii.itch.io/duck-and-cat)
